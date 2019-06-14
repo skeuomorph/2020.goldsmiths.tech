@@ -8,6 +8,7 @@
       <p>Find out more <a href='#'>here</a>.</p>
     </EventIntroText>
     <EventSupporters :supporters='supporters' :askForSponsorship='askForSponsorship' />
+    <EventFaq :faqs='faqs' />
   </div>
 </template>
 
@@ -15,6 +16,7 @@
 import EventHero from '~/components/EventHero';
 import EventIntroText from '~/components/EventIntroText';
 import EventSupporters from '~/components/EventSupporters';
+import EventFaq from '~/components/EventFaq';
 
 export default {
   data() {
@@ -45,13 +47,40 @@ export default {
         }
       ],
       supporters: ['goldsmiths', 'doc', 'goldsu', 'github'],
-      askForSponsorship: true
+      askForSponsorship: true,
+      faqs: [
+        {
+          q: `What is a hackathon`,
+          a: `Hackathons are invention marathons for developers, designers, psychologists, researchers and more. During the event, participants ('hackers') will build projects that answer our challenges to build awesome creative projects.`
+        },
+        {
+          q: `Who owns the projects?`,
+          a: `All projects built at this event belongs completely to the teams. However, to generate the widest benefit from this event, we encourage attendees to provide Open Source licenses for the results of their work.`
+        },
+        {
+          q: 'What should I bring?',
+          a: 'All participants will need to bring their laptop, charger(s) and any other devices they wish to work on.'
+        },
+        {
+          q: 'How much does it cost?',
+          a: `We want to make this event accessible for everyone, so there is no charge to enter. To make this possible, we need sponsorship.`
+        },
+        {
+          q: `I don't think this is for me`,
+          a: `We really mean it when we say we welcome beginners - you can ask for help judgement-free, and if you need to step awa yfrom the action we'll have a designated quiet room available for you to use.`
+        },
+        {
+          q: `Do I need a team?`,
+          a: `You don’t need a team to take part; it’s perfectly acceptable to create a solo project. However, during the event itself, there will be opportunities to share ideas and connect with your fellow hackers to form a team. As organisers, we’ll do our best to encourage and facilitate teamwork across the weekend.`
+        }
+      ]
     }
   },
   components: {
     EventHero,
     EventIntroText,
-    EventSupporters
+    EventSupporters,
+    EventFaq
   }
 }
 </script>
