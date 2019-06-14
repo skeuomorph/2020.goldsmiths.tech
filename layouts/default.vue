@@ -63,4 +63,8 @@ a {
   display: inline-block;
   text-decoration: none;
 }
+.btn.outline {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5)
+}
 </style>
