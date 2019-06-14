@@ -13,7 +13,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap' },
+      { rel: 'stylesheet', href: "https://use.fontawesome.com/releases/v5.3.1/css/all.css", crossorigin: 'anonymous', integrity: 'sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU' }
     ]
   },
   /*
