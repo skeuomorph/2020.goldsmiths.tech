@@ -32,7 +32,7 @@ header {
 nav a {
   margin-left: 1em;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 400;
   color: var(--dark);
   text-decoration: none;
 }

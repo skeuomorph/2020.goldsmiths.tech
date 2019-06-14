@@ -79,5 +79,6 @@ export default {
 #events h3 {
   font-size: 1em;
   margin-bottom: 0.5em;
+  font-weight: bold;
 }
 </style>

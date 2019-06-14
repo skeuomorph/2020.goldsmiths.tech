@@ -35,6 +35,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 body {

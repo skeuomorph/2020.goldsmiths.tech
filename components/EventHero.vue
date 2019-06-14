@@ -32,7 +32,7 @@ export default {
 }
 
 #hero * {
-  font-weight: normal;
+  font-weight: 300;
 }
 
 img {
