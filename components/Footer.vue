@@ -39,6 +39,7 @@ export default {
 footer {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 4em;
 }
 a {
   text-decoration: none;
