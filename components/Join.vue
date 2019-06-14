@@ -19,7 +19,7 @@
   color: var(--mid);
 }
 h2 {
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.25em;
   margin: 1em 0 2rem;
 }

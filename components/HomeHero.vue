@@ -62,7 +62,7 @@ export default {
 }
 #mission h2 {
   color: var(--mid);
-  font-weight: normal;
+  font-weight: 300;
   margin: 1.5em 0;
   width: 80%;
   font-size: 1.25em;
