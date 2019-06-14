@@ -60,7 +60,7 @@ a {
   padding: 0.75em 2em;
   border-radius: 5px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 400;
   display: inline-block;
   text-decoration: none;
 }
