@@ -7,12 +7,14 @@
       <p>As well as access to our carefully curated Hacksmiths Hardware Lab, expect support from mentors and even more useful workshops for the duration of the event.</p>
       <p>Find out more <a href='#'>here</a>.</p>
     </EventIntroText>
+    <EventSupporters :supporters='supporters' :askForSponsorship='askForSponsorship' />
   </div>
 </template>
 
 <script>
 import EventHero from '~/components/EventHero';
 import EventIntroText from '~/components/EventIntroText';
+import EventSupporters from '~/components/EventSupporters';
 
 export default {
   data() {
@@ -24,8 +26,8 @@ export default {
         name: 'DoC Hack',
         desc: 'The flagship creative tech & performance hackathon by Hacksmiths',
         buttons: [
-          { label: 'Highlights from 2019', path: '/' },
-          { label: 'Get free tickets', path: '/' }
+          { label: 'Highlights from 2019', path: '/highlights' },
+          { label: 'Get free tickets', path: '/tix' }
         ]
       },
       introTextSidebarItems: [
@@ -41,12 +43,15 @@ export default {
           title: 'Twitter',
           content: '#DoCHack'
         }
-      ]
+      ],
+      supporters: ['goldsmiths', 'doc', 'goldsu', 'github'],
+      askForSponsorship: true
     }
   },
   components: {
     EventHero,
-    EventIntroText
+    EventIntroText,
+    EventSupporters
   }
 }
 </script>
