@@ -12,7 +12,8 @@ export default {
       { hid: 'description', name: 'description', content: 'Hacksmiths is the student-run tech society at Goldsmiths, University of London.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap' }
     ]
   },
   /*
