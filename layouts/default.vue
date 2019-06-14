@@ -23,9 +23,10 @@ export default {
 
 <style>
 :root {
-  --theme: #D70088;
+  --theme: #C52085;
   --light: #FAFAFA;
-  --mid: #ECECEC;
+  --light-2: #ECECEC;
+  --mid: #808080;
   --dark: #252525;
 }
 
@@ -34,6 +35,10 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  line-height: 1.5;
 }
 
 .container {
@@ -56,5 +61,6 @@ a {
   text-transform: uppercase;
   font-weight: bold;
   display: inline-block;
+  text-decoration: none;
 }
 </style>
