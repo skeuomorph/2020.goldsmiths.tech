@@ -54,4 +54,16 @@ ul {
 li {
   margin-top: 1em;
 }
+
+@media screen and (max-width: 960px) {
+  #about {
+    margin-top: 2em;
+  }
+  h1.title {
+    font-size: 1.25em;
+  }
+  h1.title + h2 {
+    font-size: 1em;
+  }
+}
 </style>

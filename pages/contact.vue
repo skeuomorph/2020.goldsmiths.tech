@@ -19,5 +19,11 @@
  li {
    margin-top: 1em;
  }
+
+ @media screen and (max-width: 960px) {
+ h1 {
+   font-size: 1.25em;
+ }
+}
  </style>
  
