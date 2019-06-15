@@ -63,4 +63,23 @@ a {
 .social a {
   margin-left: 1em;
 }
+@media screen and (max-width: 960px) {
+  footer {
+    flex-direction: column-reverse;
+    gap: 2em;
+  }
+  .social {
+    text-align: center;
+  }
+  .links {
+    text-align: center;
+  }
+  .social a,
+  .links a {
+    font-size: 0.8em;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
 </style>
