@@ -47,6 +47,7 @@ nav a {
   }
   nav {
     margin-top: 1em;
+    font-size: 0.8em;
   }
   nav a {
     margin-left: 0;

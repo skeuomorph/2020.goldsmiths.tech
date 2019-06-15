@@ -63,6 +63,7 @@ a {
   font-weight: 400;
   display: inline-block;
   text-decoration: none;
+  text-align: center;
 }
 .btn.outline {
   background: transparent;

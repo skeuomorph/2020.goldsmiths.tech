@@ -81,4 +81,20 @@ export default {
   margin-bottom: 0.5em;
   font-weight: bold;
 }
+@media screen and (max-width: 960px) {
+  #hero {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+  .container {
+    flex-direction: column;
+  }
+  #mission h2 {
+    width: 100%;
+    font-size: 1em;
+  }
+  .btn {
+    font-size: 0.8em;
+  }
+}
 </style>
