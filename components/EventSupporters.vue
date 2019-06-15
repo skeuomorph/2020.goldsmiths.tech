@@ -32,4 +32,14 @@ img {
   width: 100%;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 960px) {
+  h2 {
+    font-size: 1.25em;
+  }
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+  }
+}
 </style>
