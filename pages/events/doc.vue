@@ -1,12 +1,15 @@
 <template>
   <div id='event'>
     <EventHero :event='hero' />
+    <!-- Content inside of the EventIntroText tags will display on the left-hand side of the intro section, below the hero unit -->
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>Build awesome interactive experiences, with all the support you need.</h2>
       <p>At the hackathon over the weekend, you will use your technical and creative skills to make something wonderful, arty, musical - anything you build will be awesome. We'll provide you with food, drink, electricity and internet, so that you can get on with the real work - making cool and engaging projects!</p>
       <p>As well as access to our carefully curated Hacksmiths Hardware Lab, expect support from mentors and even more useful workshops for the duration of the event.</p>
       <p>Find out more <a href='#'>here</a>.</p>
     </EventIntroText>
+
+    <!-- Can comment this out if you do not want to display the supporters section -->
     <EventSupporters :supporters='supporters' :askForSponsorship='askForSponsorship' />
     <EventFaq :faqs='faqs' />
   </div>
@@ -21,6 +24,7 @@ import EventFaq from '~/components/EventFaq';
 export default {
   data() {
     return {
+      // This section is for the hero unit content
       // Assets go in /static
       hero: {
         background: '/events/doc/hero.jpg',
@@ -32,6 +36,8 @@ export default {
           { label: 'Get free tickets', path: '/tix' }
         ]
       },
+
+      // This section is for the info blocks on the right-hand side of the intro section, below the hero unit
       introTextSidebarItems: [
         {
           title: 'When',
@@ -46,8 +52,13 @@ export default {
           content: '#DoCHack'
         }
       ],
+
+      // These are the logos to show as supporters. These must be images in the /static/supporters directory, and must be in .png format. 
       supporters: ['goldsmiths', 'doc', 'goldsu', 'github'],
+      // If false, the line asking for sponsorship will not show
       askForSponsorship: true,
+
+      // List of FAQs
       faqs: [
         {
           q: `What is a hackathon`,

@@ -18,7 +18,6 @@ export default {
 
 <style scoped>
 #faq {
-  padding-top: 4em;
   padding-bottom: 4em;
 }
 h2 {

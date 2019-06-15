@@ -15,6 +15,9 @@ export default {
 </script>
 
 <style scoped>
+#supporters {
+  padding-bottom: 4em;
+}
 h2 {
   font-size: 2em;
 }
