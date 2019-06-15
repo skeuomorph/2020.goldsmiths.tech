@@ -36,4 +36,25 @@ nav a {
   color: var(--dark);
   text-decoration: none;
 }
+
+@media screen and (max-width: 960px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo {
+    margin: auto;
+  }
+  nav {
+    margin-top: 1em;
+  }
+  nav a {
+    margin-left: 0;
+    padding: 0.5em;
+    display: inline-block;
+  }
+  nav a.btn {
+    display: none;
+  }
+}
 </style>
