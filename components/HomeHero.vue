@@ -96,7 +96,8 @@ export default {
     font-size: 1em;
   }
   #mission img {
-
+    width: 50%;
+    min-width: 260px;
   }
   .btn {
     font-size: 0.8em;
