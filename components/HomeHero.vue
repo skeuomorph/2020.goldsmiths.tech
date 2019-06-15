@@ -102,5 +102,9 @@ export default {
   .btn {
     font-size: 0.8em;
   }
+  #events {
+    padding: 1.5em;
+    font-size: 0.8em;
+  }
 }
 </style>
