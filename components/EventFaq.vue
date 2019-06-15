@@ -36,4 +36,16 @@ h2 {
   font-weight: bold;
   margin-bottom: 0.25em; 
 }
+
+@media screen and (max-width: 960px) {
+  #faq {
+    padding-bottom: 0;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+  .items {
+    columns: 1;
+  }
+}
 </style>
