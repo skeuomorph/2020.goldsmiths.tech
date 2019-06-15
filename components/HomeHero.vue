@@ -75,6 +75,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 2em;
+  border-radius: 5px;
 }
 #events h3 {
   font-size: 1em;
@@ -88,10 +89,14 @@ export default {
   }
   .container {
     flex-direction: column;
+    gap: 2em;
   }
   #mission h2 {
     width: 100%;
     font-size: 1em;
+  }
+  #mission img {
+
   }
   .btn {
     font-size: 0.8em;
