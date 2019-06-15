@@ -101,4 +101,20 @@ h1.title + h2 {
 .person p {
   color: var(--mid);
 }
+
+@media screen and (max-width: 960px) {
+  #team {
+    margin-top: 2em;
+  }
+  h1.title {
+    font-size: 1.25em;
+  }
+  h1.title + h2 {
+    font-size: 1em;
+  }
+  .team {
+    columns: 2;
+    font-size: 0.8em;
+  }
+}
 </style>
