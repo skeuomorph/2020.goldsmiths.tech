@@ -56,4 +56,26 @@ h2 {
   margin-left: 1em;
   margin-right: 1em;
 }
+
+@media screen and (max-width: 960px) {
+  #hero {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+  img {
+    height: auto;
+    width: 150px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    font-size: 0.8em;
+    margin-top: 1em;
+  }
+}
 </style>
