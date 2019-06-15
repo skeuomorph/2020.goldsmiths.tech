@@ -27,4 +27,13 @@ small {
   display: block;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 960px) {
+  h2 {
+    font-size: 1em;
+  }
+  .btn {
+    font-size: 0.8em;
+  }
+}
 </style>
