@@ -45,4 +45,19 @@ aside {
   display: block;
   font-weight: bold;
 }
+
+@media screen and (max-width: 960px) {
+  .container {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    flex-direction: column;
+    gap: 1em;
+  }
+  article {
+    padding-right: 0;
+  }
+  article h2 {
+    font-size: 1.25em;
+  }
+}
 </style>
