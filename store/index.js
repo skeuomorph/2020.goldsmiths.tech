@@ -6,14 +6,14 @@ export const state = () => ({
       date: '2019-04-19',
       path: '/events/anvil',
       type: 'hack',
-      onHome: true
     },
     {
       name: 'DoC.Hack',
       desc: 'A hackday for all members of the Gold Computing community.',
       date: '2019-09-21',
       path: '/events/doc',
-      type: 'hack'
+      type: 'hack',
+      onHome: true
     },
     {
       name: 'Talk 1',

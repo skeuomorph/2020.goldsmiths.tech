@@ -24,6 +24,7 @@ export default {
 <style>
 :root {
   --theme: #C52085;
+  --secondary: #007edf;
   --light: #FAFAFA;
   --light-2: #ECECEC;
   --mid: #808080;
