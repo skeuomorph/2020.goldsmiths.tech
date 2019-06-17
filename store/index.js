@@ -89,11 +89,4 @@ export const getters = {
   homeEvent: state => {
     return state.events.filter(event => event.onHome)[0]
   }
-  // eventsOfType: (state, type) => {
-    // const events = state.events.filter(event => event.type == type)
-    // const upcoming = events.filter(event => Date.parse(event.date) - Date.parse(new Date()) >= 0)
-    // const past = events.filter(event => Date.parse(event.date) - Date.parse(new Date()) < 0)
-
-    // return { upcoming, past }
-  // } 
 }

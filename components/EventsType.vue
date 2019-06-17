@@ -9,6 +9,9 @@
         <small class="btn">Learn more</small>
       </n-link>
     </div>
+    <div v-else>
+      <h3>There are no upcoming events</h3>
+    </div>
   </div>
 </template>
 
