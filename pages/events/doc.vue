@@ -10,7 +10,7 @@
     </EventIntroText>
 
     <!-- Can comment this out if you do not want to display the supporters section -->
-    <EventSupporters :supporters='supporters' :askForSponsorship='askForSponsorship' />
+    <EventSupporters :supporters='supporters' :askForSponsorship='askForSponsorship' v-if='supporters.length > 0' />
     <EventFaq :faqs='faqs' />
   </div>
 </template>
@@ -54,6 +54,7 @@ export default {
       ],
 
       // These are the logos to show as supporters. These must be images in the /static/supporters directory, and must be in .png format. 
+      // Leave array empty if you want to hide this section
       supporters: ['goldsmiths', 'doc', 'goldsu', 'github'],
       // If false, the line asking for sponsorship will not show
       askForSponsorship: true,

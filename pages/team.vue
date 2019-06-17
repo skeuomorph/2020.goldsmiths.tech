@@ -85,6 +85,7 @@ h1.title + h2 {
 .person {
   display: inline-block;
   padding: 1em;
+  background: var(--light);
   border: 1px solid var(--light-2);
   border-radius: 7.5px;
   margin-bottom: 1em;
