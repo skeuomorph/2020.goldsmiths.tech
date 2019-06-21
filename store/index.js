@@ -12,8 +12,7 @@ export const state = () => ({
       desc: 'A hackday for all members of the Gold Computing community.',
       date: '2019-09-21',
       path: '/events/doc',
-      type: 'hack',
-      onHome: true
+      type: 'hack'
     },
     {
       name: 'Talk 1',
@@ -63,6 +62,14 @@ export const state = () => ({
       date: '2020-01-24',
       path: '/events/games',
       type: 'workshop'
+    },
+    {
+      name: 'Brand new event',
+      desc: 'Description for the new event.',
+      date: '2020-01-11', // YYYY-MM-DD
+      path: '/events/new', // PATH
+      type: 'hack',
+      onHome: true // OPTIONAL, ONLY ONE
     }
   ]
 })
@@ -79,7 +86,6 @@ export const getters = {
     })
   },
   eventsOfType: state => type => {
-    // return state.things.find(thing => thing.id === id)
     const events = state.events.filter(event => event.type == type)
     const upcoming = events.filter(event => Date.parse(event.date) - Date.parse(new Date()) >= 0)
     const past = events.filter(event => Date.parse(event.date) - Date.parse(new Date()) < 0)

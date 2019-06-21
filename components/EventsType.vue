@@ -10,7 +10,7 @@
       </n-link>
     </div>
     <div v-else>
-      <h3>There are no upcoming events</h3>
+      <h3>{{ noneText }}</h3>
     </div>
   </div>
 </template>
@@ -61,6 +61,6 @@ h2 {
 
 <script>
 export default {
-  props: ['events', 'title', 'outstanding']
+  props: ['events', 'title', 'outstanding', 'noneText']
 }
 </script>

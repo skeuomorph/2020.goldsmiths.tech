@@ -19,10 +19,11 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eius perspiciatis laborum repudiandae distinctio maxime itaque.</p>
       </div>
     </div>  
-    <EventsType title='Upcoming Talks' :events='events.talks' />
-    <EventsType title='Upcoming Nights' :events='events.nights' />
-    <EventsType title='Upcoming Hackathons' :events='events.hacks' />
-    <EventsType title='Upcoming Workshops' :events='events.workshops' />
+    <EventsType title='Upcoming Talks' :events='events.talks' noneText='There are no upcoming talks' />
+    <EventsType title='Upcoming Nights' :events='events.nights' noneText='There are no upcoming nights' />
+    <EventsType title='Upcoming Hackathons' :events='events.hacks' noneText='There are no upcoming hackathons' />
+    <EventsType title='Upcoming Workshops' :events='events.workshops' noneText='There are no upcoming workshops'  />
+    <EventsType title='Past Events' :events='events.past' noneText='There are no past events' />
   </div>
 </template>
 
@@ -39,7 +40,8 @@ export default {
         talks: this.$store.getters.eventsOfType('talk'),
         nights: this.$store.getters.eventsOfType('night'),
         hacks: this.$store.getters.eventsOfType('hack'),
-        workshops: this.$store.getters.eventsOfType('workshop')
+        workshops: this.$store.getters.eventsOfType('workshop'),
+        past: this.$store.getters.pastEvents
       }
     }
   },

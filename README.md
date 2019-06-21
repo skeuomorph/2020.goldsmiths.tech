@@ -20,6 +20,7 @@ Redirects are handled in the `/static/_redirects` file
 
 1. Add it in `store/index.js` to add it to `/events`
 2. Create a new .vue file in `/pages/events` and follow comments in the doc.vue template file
+3. Add the path to the generate array in `nuxt.config.js`
 
 ### Change event in home block
 

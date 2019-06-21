@@ -39,6 +39,11 @@ export default {
   */
   modules: [
   ],
+  generate: {
+    routes: [
+      '/',
+    ]
+  },
   /*
   ** Build configuration
   */
