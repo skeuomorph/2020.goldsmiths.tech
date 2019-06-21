@@ -42,6 +42,11 @@ export default {
   generate: {
     routes: [
       '/',
+      '/about',
+      '/contact',
+      '/team',
+      '/events',
+      '/events/doc'
     ]
   },
   /*
