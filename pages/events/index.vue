@@ -23,6 +23,7 @@
     <EventsType title='Upcoming Nights' :events='events.nights' noneText='There are no upcoming nights' />
     <EventsType title='Upcoming Hackathons' :events='events.hacks' noneText='There are no upcoming hackathons' />
     <EventsType title='Upcoming Workshops' :events='events.workshops' noneText='There are no upcoming workshops'  />
+    <EventsType title='Upcoming Gigs' :events='events.gigs' noneText='There are no upcoming gigs'  />
     <EventsType title='Past Events' :events='events.past' noneText='There are no past events' />
   </div>
 </template>
@@ -41,6 +42,7 @@ export default {
         nights: this.$store.getters.eventsOfType('night'),
         hacks: this.$store.getters.eventsOfType('hack'),
         workshops: this.$store.getters.eventsOfType('workshop'),
+        gigs: this.$store.getters.eventsOfType('gigs'),
         past: this.$store.getters.pastEvents
       }
     }
