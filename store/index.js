@@ -69,7 +69,7 @@ export const state = () => ({
       date: '2020-01-11', // YYYY-MM-DD
       path: '/events/new', // PATH
       type: 'hack',
-      onHome: true // OPTIONAL, ONLY ONE
+      onHome: true // OPTIONAL
     }
   ]
 })
@@ -93,6 +93,6 @@ export const getters = {
     return { upcoming, past, outstanding }
   },
   homeEvent: state => {
-    return state.events.filter(event => event.onHome)[0]
+    return state.events.filter(event => event.onHome)
   }
 }

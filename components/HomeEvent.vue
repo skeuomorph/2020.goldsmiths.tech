@@ -1,19 +1,32 @@
 <template>
   <div>
-    <n-link :to='event.path' id='event' v-if='Date.parse(event.date) - Date.parse(new Date())>=0'>
-      <h2>Check out {{ event.name }} happening on {{ event.date | moment('ddd Do MMM YYYY') }} <i class="fas fa-arrow-circle-right"></i></h2>
-    </n-link>
-    <n-link to='/events' id='event' v-else>
+    <n-link to='/events' id='event' v-if="!events">
       <h2>Check out our upcoming events <i class="fas fa-arrow-circle-right"></i></h2>
     </n-link>
+    <div v-else="" v-for="event in events" :key="event.id">
+      <n-link :to='event.path' id='event'>
+        <h2>Check out "{{ event.name }}" happening on {{ event.date | moment('ddd Do MMM YYYY') }} <i class="fas fa-arrow-circle-right"></i></h2>
+      </n-link>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   computed: {
-    event() {
-      return this.$store.getters.homeEvent
+    events() {
+      let eventsToReturn = [];
+      let events = this.$store.getters.homeEvent; //get all events
+      let lengthEvents = events.length;
+      for(let i=0;i<lengthEvents;i++){
+        if(Date.parse(events[i].date) - Date.parse(new Date())>=0){
+          eventsToReturn.push(events[i]);
+        }
+      }
+      if(!eventsToReturn.length){
+        return false; //if none applicable date wise return false
+      }
+      return eventsToReturn;
     }
   }
 }
