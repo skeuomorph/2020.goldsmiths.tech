@@ -14,7 +14,7 @@
  
  <style scoped>
  ul {
-   margin-left: 1.25em;
+  margin-left: 1.25em;
   list-style-type: none;
  }
  li {
@@ -25,6 +25,10 @@
  h1 {
    text-align: center;
    font-size: 1.25em;
+ }
+
+ ul {
+  margin-left: 0em;
  }
 
  li {
