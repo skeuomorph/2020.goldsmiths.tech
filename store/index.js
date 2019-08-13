@@ -65,11 +65,19 @@ export const state = () => ({
     },
     {
       name: 'Ethics in modern day tech',
-      desc: 'A series of talks lead by academic/ industry experts, looking at the way ethics are considered / ignored in modern day applications of tech.',
-      date: '2019-10-12', // YYYY-MM-DD
-      path: '/events/new', // PATH
+      desc: 'A series of talks by academic/ industry professionals, looking at the ways in which ethics are considered/ ignored in modern day applications of tech',
+      date: '2019-10-12',
+      path: 'events/',
       type: 'talk',
-      onHome: true // OPTIONAL
+      onHome: true
+    },
+    {
+      name: 'Brand new event',
+      desc: 'Description for the new event.',
+      date: '2020-01-11', // YYYY-MM-DD
+      path: '/events/new', // PATH
+      type: 'hack',
+      onHome: false // OPTIONAL
     }
   ]
 })
