@@ -23,10 +23,10 @@ export default {
       events: [
         {
           title: 'Monthly talks & workshops',
-          desc: 'A range of interesting content from students, staff and industry professionals. Suitable for complete beginners.'
+          desc: 'A range of interesting content from students, staff and industry/academic professionals. Suitable for complete beginners.'
         },
         {
-          title: 'Hacksmiths & jams',
+          title: 'Hackathons & jams',
           desc: 'Invention marathons which bring together people with varying skills to build awesome projects. Suitable for all skill levels.'
         },
         {
@@ -36,6 +36,10 @@ export default {
         {
           title: 'Community series',
           desc: 'Supporting students and staff to run their tech events with mentorship and funding.'
+        },
+        {
+          title: 'AV Events',
+          desc: 'A series of nights put on by Hacksmiths which aims to introduce digital arts students from Goldsmiths, to DJs and performers (internal and external). Each night will be a combination of music and visual arts created to fit the music. BYOB! '
         }
       ]
     }
