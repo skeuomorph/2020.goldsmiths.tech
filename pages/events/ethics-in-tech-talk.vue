@@ -3,7 +3,6 @@
     <EventHero :event='hero' />
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>Ethics in modern tech - talk series</h2>
-      <p>A day held with the aim of informing people, from all walks of life, about the ways in which ethics are considered/ ignored in modern applications of tech.</p>
       <p>Consisting of several speakers, all experts in either academia or industry. Please refer to the list below:</p>
       <!--Add list here-->
       <p>Find out more <a href='#'>here</a>.</p>
