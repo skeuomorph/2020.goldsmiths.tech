@@ -26,7 +26,7 @@ export default {
       // Assets go in /static
       hero: {
         background: '/events/doc/hero.jpg',
-        logo: '/events/doc/logo.svg',
+        logo: '/events/logoPink.svg',
         name: 'Ethics in modern tech',
         desc: 'A day held with the aim of informing people, from all walks of life, about the ways in which ethics are considered/ ignored in modern applications of tech.',
         buttons: [
