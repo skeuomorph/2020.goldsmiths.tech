@@ -67,7 +67,7 @@ export const state = () => ({
       name: 'Ethics in modern day tech',
       desc: 'A series of talks by academic/ industry professionals, looking at the ways in which ethics are considered/ ignored in modern day applications of tech',
       date: '2019-10-12',
-      path: 'events/ethics-in-tech-talk',
+      path: '/events/ethics-in-tech-talk',
       type: 'talk',
       onHome: true
     },

@@ -46,7 +46,8 @@ export default {
       '/contact',
       '/team',
       '/events',
-      '/events/doc'
+      '/events/doc',
+      '/events/ethics-in-tech-talk'
     ]
   },
   /*
