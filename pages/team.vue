@@ -19,46 +19,40 @@ export default {
     return {
       people: [
         {
-          name: 'Ben Henshaw',
-          role: 'Committee Member',
-          email: 'xxxx001@gold.ac.uk',
-          pic: '/team/ben.jpg'
+          name: 'Markela Zeneli',
+          role: 'President',
+          email: 'mzene001@gold.ac.uk',
+          pic: '/team/markela.jpg'
         },
         {
-          name: 'Harley Wright',
-          role: 'Committee Member',
-          email: 'xxxx001@gold.ac.uk',
-          pic: '/team/harley.jpg'
+          name: 'Kamal Jones',
+          role: 'BME rep',
+          email: 'kjone003@gold.ac.uk',
+          pic: '/team/kamal.jpg'
         },
         {
-          name: 'Isabella Maund',
+          name: 'Elhassania Ghazoini',
           role: 'Committee Member',
-          email: 'xxxx001@gold.ac.uk',
-          pic: '/team/isabella.jpg'
+          email: 'eghaz001@gold.ac.uk',
+          pic: '/team/ania.jpg'
         },
         {
-          name: 'Jorid Jonland',
+          name: 'Dennis Duka',
           role: 'Committee Member',
-          email: 'xxxx001@gold.ac.uk',
-          pic: '/team/jo.jpg'
+          email: 'dntou001@gold.ac.uk',
+          pic: '/team/dennis.jpg'
         },
         {
           name: 'Katie Whittington',
           role: 'Committee Member',
-          email: 'xxxx001@gold.ac.uk',
+          email: 'kwhit006@gold.ac.uk',
           pic: '/team/katie.jpg'
         },
         {
-          name: 'Markela Zeneli',
+          name: 'Will Reynard',
           role: 'Committee Member',
-          email: 'xxxx001@gold.ac.uk',
-          pic: '/team/markela.jpg'
-        },
-        {
-          name: 'Taran Feaver',
-          role: 'Committee Member',
-          email: 'xxxx001@gold.ac.uk',
-          pic: '/team/taran.jpg'
+          email: 'wreyn001@gold.ac.uk',
+          pic: '/team/will.jpg'
         }
       ]
     }
