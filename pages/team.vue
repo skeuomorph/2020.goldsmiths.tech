@@ -53,6 +53,12 @@ export default {
           role: 'Committee Member',
           email: 'wreyn001@gold.ac.uk',
           pic: '/team/will.jpg'
+        },
+        {
+          name: 'Francesca ',
+          role: 'Committee Member',
+          email: 'xxxx001@gold.ac.uk',
+          pic: '/team/fran.png'
         }
       ]
     }
