@@ -4,19 +4,19 @@
     <div id="top">
       <div class="box">
         <h2>Talks</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus eos laboriosam fugiat, maxime soluta perferendis mollitia.</p>
+        <p>Events where academics/industry experts give accessible talks. The main aim is to educate on, demystify and debug various topics.</p>
       </div>
       <div class="box">
         <h2>Nights</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis facere omnis saepe molestias in architecto, officia aut.</p>
+        <p>Digital arts and computing students partner up with DJs and performers to put on live shows. Each night will be distinctive.</p>
       </div>
       <div class="box">
         <h2>Hacks</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi voluptatibus quis adipisci cupiditate quisquam aut repudiandae.</p>
+        <p>An assortment of jams, hackathons and short challenges. Some of our main hacks include Global Game Jam, Music Hack Day, and Anvil Hack. </p>
       </div>
       <div class="box">
         <h2>Workshops</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eius perspiciatis laborum repudiandae distinctio maxime itaque.</p>
+        <p>Short sessions (typically for beginners) getting you to grips with programming languages, software, and hardware.</p>
       </div>
     </div>  
     <EventsType title='Upcoming Talks' :events='events.talks' noneText='There are no upcoming talks' />
