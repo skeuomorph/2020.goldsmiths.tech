@@ -1,82 +1,68 @@
 export const state = () => ({
   events: [
     {
-      name: 'Anvil Hack V',
-      desc: 'Build art.',
-      date: '2019-04-19',
-      path: '/events/anvil',
-      type: 'hack',
-    },
-    {
-      name: 'DoC.Hack',
-      desc: 'A hackday for all members of the Gold Computing community.',
-      date: '2019-09-21',
-      path: '/events/doc',
-      type: 'hack'
-    },
-    {
-      name: 'Talk 1',
-      desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
-      date: '2019-10-01',
-      path: '/events/talks',
-      type: 'talk'
-    },
-    {
-      name: 'Talk 2',
-      desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
-      date: '2019-11-21',
-      path: '/events/talks',
-      type: 'talk'
-    },
-    {
-      name: 'Night 1',
-      desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
-      date: '2019-11-01',
-      path: '/events/nights',
-      type: 'night'
-    },
-    {
-      name: 'Night 2',
-      desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
-      date: '2020-03-17',
-      path: '/events/nights',
-      type: 'night'
-    },
-    {
-      name: 'Intro to Web Design',
-      desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
-      date: '2020-10-14',
-      path: '/events/workshops',
-      type: 'night'
-    },
-    {
-      name: 'Intro to React.js',
-      desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
-      date: '2019-11-11',
-      path: '/events/workshops',
-      type: 'workshop'
-    },
-    {
       name: 'Global Game Jam',
       desc: 'Build games.',
       date: '2020-01-24',
       path: '/events/games',
-      type: 'workshop'
+      type: 'hack'
+    },
+    {
+      name: 'Anvil Hack V',
+      desc: 'Build art.',
+      date: '2020-04-19',
+      path: '/events/anvil',
+      type: 'hack',
+    },
+    // {
+    //   name: 'Talk 1',
+    //   desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
+    //   date: '2019-10-01',
+    //   path: '/events/talks',
+    //   type: 'talk'
+    // },
+    // {
+    //   name: 'Talk 2',
+    //   desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
+    //   date: '2019-11-21',
+    //   path: '/events/talks',
+    //   type: 'talk'
+    // },
+    {
+      name: 'TBA',
+      desc: 'Ad astra et infinitum.',
+      date: '2019-10-31',
+      path: '/events/nights',
+      type: 'night'
+    },
+    {
+      name: 'TBA',
+      desc: 'Ad astra et infinitum.',
+      date: '2019-10-31',
+      path: '/events/nights',
+      type: 'night'
+    },
+    {
+      name: 'TBA',
+      desc: 'Ad astra et infinitum.',
+      date: '2019-10-31',
+      path: '/events/workshops',
+      type: 'night'
     },
     {
       name: 'Ethics in modern day tech',
-      desc: 'A series of talks by academic/ industry professionals, looking at the ways in which ethics are considered/ ignored in modern day applications of tech',
+      desc: 'A series of talks by academics, looking at the ways in which ethics are considered/ ignored in modern day applications of tech.',
       date: '2019-10-12',
       path: '/events/ethics-in-tech-talk',
       type: 'talk',
       onHome: true
     },
     {
-      name: 'Brand new event',
-      desc: 'Description for the new event.',
-      date: '2020-01-11', // YYYY-MM-DD
+      name: 'Live music coding w/ Joanne Armitage',
+      desc: 'A 2hr workshop on SuperCollider and Hydra.',
+      date: '2020-10-04', // YYYY-MM-DD
       path: '/events/new', // PATH
-      type: 'hack',
+      type: 'workshop',
       onHome: false // OPTIONAL
     }
   ]
