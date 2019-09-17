@@ -4,7 +4,7 @@ export const state = () => ({
       name: 'Global Game Jam',
       desc: 'Build games.',
       date: '2020-01-24',
-      path: '/events/games',
+      path: '/events/global-game-jam',
       type: 'hack'
     },
     {
@@ -30,25 +30,25 @@ export const state = () => ({
     // },
     {
       name: 'TBA',
-      desc: 'Ad astra et infinitum.',
+      // desc: 'Ad astra et infinitum.',
       date: '2019-10-31',
       path: '/events/nights',
       type: 'night'
     },
-    {
-      name: 'TBA',
-      desc: 'Ad astra et infinitum.',
-      date: '2019-10-31',
-      path: '/events/nights',
-      type: 'night'
-    },
-    {
-      name: 'TBA',
-      desc: 'Ad astra et infinitum.',
-      date: '2019-10-31',
-      path: '/events/workshops',
-      type: 'night'
-    },
+    // {
+    //   name: 'TBA',
+    //   desc: 'Ad astra et infinitum.',
+    //   date: '2019-10-31',
+    //   path: '/events/nights',
+    //   type: 'night'
+    // },
+    // {
+    //   name: 'TBA',
+    //   desc: 'Ad astra et infinitum.',
+    //   date: '2019-10-31',
+    //   path: '/events/workshops',
+    //   type: 'night'
+    // },
     {
       name: 'Ethics in modern day tech',
       desc: 'A series of talks by academics, looking at the ways in which ethics are considered/ ignored in modern day applications of tech.',
