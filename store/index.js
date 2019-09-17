@@ -61,7 +61,7 @@ export const state = () => ({
       name: 'Live music coding w/ Joanne Armitage',
       desc: 'A 2hr workshop on SuperCollider and Hydra.',
       date: '2020-10-04', // YYYY-MM-DD
-      path: '/events/new', // PATH
+      path: '/events/live-music-coding', // PATH
       type: 'workshop',
       onHome: false // OPTIONAL
     }
