@@ -9,7 +9,7 @@
       Stuart Russell was born in Portsmouth, England. He received his Bachelor of Arts degree with first-class honours in Physics from the University of Oxford where he was an undergraduate student at Wadham College, Oxford in 1982, and his PhD in Computer Science from Stanford University in 1986.
       <br>
       His research on the history and future of Artificial Intelligence and its relation to humanity includes machine learning, probabilistic reasoning, knowledge representation, planning, real-time decision making, multitarget tracking, computer vision, inverse reinforcement learning, and the movement to ban the manufacture and use of autonomous weapons.
-      <p>Find out more <a href='humanCompat.docx'>here</a>.</p>
+      <p>Find out more <a href=''>here</a></p>
     </EventIntroText>
 
     <EventSupporters :supporters='supporters' :askForSponsorship='askForSponsorship' v-if='supporters.length > 0' />
