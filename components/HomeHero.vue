@@ -98,13 +98,19 @@ export default {
   #mission h2 {
     width: 100%;
     font-size: 1em;
+    text-align: center;
   }
   #mission img {
+    display:block;
     width: 50%;
     min-width: 260px;
+    margin:0 auto;
   }
   .btn {
     font-size: 0.8em;
+    display: block;
+    margin:10px auto;
+    width:80%;
   }
   #events {
     padding: 1.5em;

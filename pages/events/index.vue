@@ -2,6 +2,7 @@
   <div class='container' id='events'>
     <h1 class='title'>Events</h1>
     <div id="top">
+<<<<<<< HEAD
           <div class="box">
         <h2>Hacks</h2>
         <p>Hackathons and jams are where the talent of the community get showcased. The lengths of these types of events vary from 2 hours, to 2 days.</p>
@@ -17,6 +18,23 @@
       <div class="box">
         <h2>Nights</h2>
         <p>Digital arts students create music-responsive visuals for DJ's/ performers. Cheap drinks, location 20 mins from Goldsmiths and will be disclosed via email.</p>
+=======
+      <div class="box">
+        <h2>Talks</h2>
+        <p>Events where academics/industry experts give accessible talks. The main aim is to educate on, demystify and debug various topics.</p>
+      </div>
+      <div class="box">
+        <h2>Nights</h2>
+        <p>Digital arts and computing students partner up with DJs and performers to put on live shows. Each night will be distinctive.</p>
+      </div>
+      <div class="box">
+        <h2>Hacks</h2>
+        <p>An assortment of jams, hackathons and short challenges. Some of our main hacks include Global Game Jam, Music Hack Day, and Anvil Hack. </p>
+      </div>
+      <div class="box">
+        <h2>Workshops</h2>
+        <p>Short sessions (typically for beginners) getting you to grips with programming languages, software, and hardware.</p>
+>>>>>>> 52fd51a646cd31908bfa5889eda494025c280beb
       </div>
     </div>  
     <EventsType title='Upcoming Talks' :events='events.talks' noneText='There are no upcoming talks' />
