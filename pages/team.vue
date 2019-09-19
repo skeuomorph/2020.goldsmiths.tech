@@ -1,7 +1,7 @@
 <template>
   <div id='team' class='container'>
     <h1 class="title">Our 2019-2020 Team</h1>
-    <h2>We're super friendly and happy to answer any questions you may have about Hacksmiths or our projects.</h2>
+    <h2>We're happy to answer any questions you may have about Hacksmiths or our projects.</h2>
     <div class="team">
       <div class="person" v-for='person in people' :key='person.name'>
         <img :src="person.pic" :alt="person.name">
@@ -37,6 +37,12 @@ export default {
           pic: '/team/ania.jpg'
         },
         {
+          name: 'Charlie Francis',
+          role: 'Committee Member',
+          email: 'cfran005@gold.ac.uk',
+          pic: '/team/charlie.jpg'
+        },
+        {
           name: 'Dennis Duka',
           role: 'Committee Member',
           email: 'dntou001@gold.ac.uk',
@@ -55,9 +61,9 @@ export default {
           pic: '/team/will.jpg'
         },
         {
-          name: 'Francesca ',
+          name: 'Francesca Brierley',
           role: 'Committee Member',
-          email: 'xxxx001@gold.ac.uk',
+          email: 'fbrie002@gold.ac.uk',
           pic: '/team/fran.png'
         }
       ]

@@ -2,28 +2,27 @@
   <div class='container' id='events'>
     <h1 class='title'>Events</h1>
     <div id="top">
-      <div class="box">
-        <h2>Talks</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus eos laboriosam fugiat, maxime soluta perferendis mollitia.</p>
-      </div>
-      <div class="box">
-        <h2>Nights</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis facere omnis saepe molestias in architecto, officia aut.</p>
-      </div>
-      <div class="box">
+          <div class="box">
         <h2>Hacks</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi voluptatibus quis adipisci cupiditate quisquam aut repudiandae.</p>
+        <p>Hackathons and jams are where the talent of the community get showcased. The lengths of these types of events vary from 2 hours, to 2 days.</p>
       </div>
       <div class="box">
         <h2>Workshops</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eius perspiciatis laborum repudiandae distinctio maxime itaque.</p>
+        <p>Short sessions, either as one-offs or part of a series. Technical skills, software, and languages taught somewhere that can build confidence in the new, and push the experienced even further.</p>
+      </div>
+      <div class="box">
+        <h2>Talks</h2>
+        <p>Change and progression requires education. We aim for all of our talks to be accessible at entry level.</p>
+      </div>
+      <div class="box">
+        <h2>Nights</h2>
+        <p>Digital arts students create music-responsive visuals for DJ's/ performers. Cheap drinks, location 20 mins from Goldsmiths and will be disclosed via email.</p>
       </div>
     </div>  
     <EventsType title='Upcoming Talks' :events='events.talks' noneText='There are no upcoming talks' />
     <EventsType title='Upcoming Nights' :events='events.nights' noneText='There are no upcoming nights' />
     <EventsType title='Upcoming Hackathons' :events='events.hacks' noneText='There are no upcoming hackathons' />
     <EventsType title='Upcoming Workshops' :events='events.workshops' noneText='There are no upcoming workshops'  />
-    <EventsType title='Upcoming Gigs' :events='events.gigs' noneText='There are no upcoming gigs'  />
     <EventsType title='Past Events' :events='events.past' noneText='There are no past events' />
   </div>
 </template>
