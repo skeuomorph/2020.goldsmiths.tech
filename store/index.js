@@ -29,14 +29,6 @@ export const state = () => ({
     //   type: 'talk'
     // },
     {
-<<<<<<< HEAD
-      name: 'Global Game Jam',
-      desc: 'Build games.',
-      date: '2020-01-24',
-      path: '/events/games',
-      type: 'workshop'
-    },
-=======
       name: 'TBA',
       // desc: 'Ad astra et infinitum.',
       date: '2019-10-31',
@@ -57,7 +49,6 @@ export const state = () => ({
     //   path: '/events/workshops',
     //   type: 'night'
     // },
->>>>>>> 52fd51a646cd31908bfa5889eda494025c280beb
     {
       name: 'Ethics in modern day tech',
       desc: 'A series of talks by academics, looking at the ways in which ethics are considered/ ignored in modern day applications of tech.',
@@ -67,20 +58,19 @@ export const state = () => ({
       onHome: true
     },
     {
-<<<<<<< HEAD
       name: 'Brand new event',
       desc: 'Description for the new event.',
       date: '2019-01-11', // YYYY-MM-DD
       path: '/events/new', // PATH
       type: 'hack',
-=======
-      name: 'Live music coding w/ Joanne Armitage',
-      desc: 'A 2hr workshop on SuperCollider and Hydra.',
-      date: '2020-10-04', // YYYY-MM-DD
-      path: '/events/live-music-coding', // PATH
-      type: 'workshop',
->>>>>>> 52fd51a646cd31908bfa5889eda494025c280beb
       onHome: false // OPTIONAL
+    },
+    {
+      name: 'Live music coding w/ Joanne Armitage',
+      desc: 'Learn how to code music and edit it live, on the programs SuperCollider and Hydra.',
+      date: '2020-10-04',
+      path: '/events/live-music-coding.vue',
+      type: 'workshop'
     }
   ]
 })
