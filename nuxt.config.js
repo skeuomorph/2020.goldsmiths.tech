@@ -47,7 +47,8 @@ export default {
       '/team',
       '/events',
       '/events/doc',
-      '/events/ethics-in-tech-talk'
+      '/events/ethics-in-tech-talk',
+      '/events/live-music-coding'
     ]
   },
   /*
