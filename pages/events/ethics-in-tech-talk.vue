@@ -42,7 +42,7 @@ export default {
       introTextSidebarItems: [
         {
           title: 'When',
-          content: 'Oct 12th 2019'
+          content: 'Oct 12th 2019, 11AM'
         },
         {
           title: 'Where',
