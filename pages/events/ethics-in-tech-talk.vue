@@ -3,7 +3,7 @@
     <EventHero :event='hero' />
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>What's this all about then?</h2>
-      <p>Technology is engrained in most of our lives. When this is true, why is it that only a small fraction of us truly understand how our every day choices are being steered by others, and the systems they create. Whether it's who Facebook is telling you to vote for, or what Amazon is telling you to buy, autonomy and freedom are being tested. Academic experts give us their insight on why we should be embedding ethics in tech in 2019.</p>
+      <p>Technology is ingrained in most of our lives. When this is true, why is it that only a small fraction of us truly understand how our everyday choices are being steered by others, and the systems they create. Whether it's who Facebook is telling you to vote for, or what Amazon is telling you to buy, autonomy and freedom are being tested. Academic experts give us their insight on why we should be embedding ethics in tech in 2019.</p>
       <!--Add list here-->
       <h3>Professor Stuart Russell</h3>
       <p>Stuart Russell was born in Portsmouth, England. He received his Bachelor of Arts degree with first-class honours in Physics from the University of Oxford where he was an undergraduate student at Wadham College, Oxford in 1982, and his PhD in Computer Science from Stanford University in 1986.</p>
@@ -32,7 +32,7 @@ export default {
         background: '/events/doc/hero.jpg',
         logo: '/events/logoPink.svg',
         name: 'Ethics in modern tech',
-        desc: 'A series of talks on the same day, all about the ways in which ethics are considered and ignored in modern applications of tech.',
+        desc: 'A series of talks on the same day, about the ways in which ethics are considered and ignored in modern applications of tech.',
         buttons: [
           { label: 'Get free tickets', path: 'https://www.eventbrite.co.uk/e/ethics-in-tech-conference-tickets-73748841771' }
         ]
