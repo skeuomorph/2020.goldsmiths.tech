@@ -4,7 +4,7 @@
       <div id="mission">
         <img src="~/assets/brand/logo.svg" alt="Hacksmiths">
         <h2> Hacksmiths is the student-run tech society at Goldsmiths. Our mission is to provide an opportunity for people in all departments and from all backgrounds the chance to learn about, and play with, technology. </h2>
-        <n-link to='/join' class='btn'>Become a member - join for free</n-link>
+        <a href='/join' class='btn'>Become a member - join for free</a>
       </div>
       <div id="events">
         <div class="event" v-for='item in events' :key='item.title'>

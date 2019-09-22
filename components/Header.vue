@@ -9,7 +9,7 @@
       <n-link to='/team'>Team</n-link>
       <n-link to='/about'>About</n-link>
       <n-link to='/contact'>Contact</n-link>
-      <n-link to='/join' class='btn'>Join for free</n-link>
+      <a href='/join' class='btn'>Join for free</a>
     </nav>
   </header>
 </template>

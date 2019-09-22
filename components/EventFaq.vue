@@ -3,7 +3,7 @@
     <h2>FAQ</h2>
     <div class="items">
       <div class="item" v-for='item in faqs' :key='item.q'>
-        <b>{{ item.q }}</b>
+        <p><b>{{ item.q }}</b></p>
         <p>{{ item.a }}</p>
       </div>
     </div>
@@ -24,12 +24,14 @@ h2 {
   font-size: 2em;
 }
 .items {
-  columns: 3;
-  column-gap: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 1.5em;
 }
 .item {
-  margin-top: 1.5em;
-  display: inline-block;
+  margin-bottom: 1.5em;
+  display: flex;
+  flex-direction: column;
 }
 .item b {
   display: block;
@@ -45,7 +47,7 @@ h2 {
     font-size: 1.25em;
   }
   .items {
-    columns: 1;
+    grid-template-columns: 1fr;
   }
 }
 </style>

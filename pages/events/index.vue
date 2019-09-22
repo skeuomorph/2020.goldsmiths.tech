@@ -19,10 +19,10 @@
         <p>Digital arts students create music-responsive visuals for DJ's/ performers. Cheap drinks, location 20 mins from Goldsmiths and will be disclosed via email.</p>
       </div>
     </div>  
-    <EventsType title='Upcoming Talks' :events='events.talks' noneText='There are no upcoming talks' />
-    <EventsType title='Upcoming Nights' :events='events.nights' noneText='There are no upcoming nights' />
-    <EventsType title='Upcoming Hackathons' :events='events.hacks' noneText='There are no upcoming hackathons' />
-    <EventsType title='Upcoming Workshops' :events='events.workshops' noneText='There are no upcoming workshops'  />
+    <EventsType title='Upcoming Talks' :events='events.talks' noneText='There are no announced upcoming talks' />
+    <EventsType title='Upcoming Nights' :events='events.nights' noneText='There are no announced upcoming nights' />
+    <EventsType title='Upcoming Hackathons' :events='events.hacks' noneText='There are no announced upcoming hackathons' />
+    <EventsType title='Upcoming Workshops' :events='events.workshops' noneText='There are no announced upcoming workshops'  />
     <EventsType title='Past Events' :events='events.past' noneText='There are no past events' />
   </div>
 </template>

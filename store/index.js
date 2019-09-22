@@ -1,19 +1,19 @@
 export const state = () => ({
   events: [
-    {
-      name: 'Global Game Jam',
-      desc: 'Build games.',
-      date: '2020-01-24',
-      path: '/events/global-game-jam',
-      type: 'hack'
-    },
-    {
-      name: 'Anvil Hack V',
-      desc: 'Build art.',
-      date: '2020-04-19',
-      path: '/events/anvil',
-      type: 'hack',
-    },
+    // {
+    //   name: 'Global Game Jam',
+    //   desc: 'Build games.',
+    //   date: '2020-01-24',
+    //   path: '/events/global-game-jam',
+    //   type: 'hack'
+    // },
+    // {
+    //   name: 'Anvil Hack V',
+    //   desc: 'Build art.',
+    //   date: '2020-04-19',
+    //   path: '/events/anvil',
+    //   type: 'hack',
+    // },
     // {
     //   name: 'Talk 1',
     //   desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
@@ -28,13 +28,13 @@ export const state = () => ({
     //   path: '/events/talks',
     //   type: 'talk'
     // },
-    {
-      name: 'TBA',
-      // desc: 'Ad astra et infinitum.',
-      date: '2019-10-31',
-      path: '/events/nights',
-      type: 'night'
-    },
+    // {
+    //   name: 'TBA',
+    //   // desc: 'Ad astra et infinitum.',
+    //   date: '2019-10-31',
+    //   path: '/events/nights',
+    //   type: 'night'
+    // },
     // {
     //   name: 'TBA',
     //   desc: 'Ad astra et infinitum.',
@@ -50,28 +50,28 @@ export const state = () => ({
     //   type: 'night'
     // },
     {
-      name: 'Ethics in modern day tech',
+      name: 'Ethics in modern tech',
       desc: 'A series of talks by academics, looking at the ways in which ethics are considered/ ignored in modern day applications of tech.',
       date: '2019-10-12',
       path: '/events/ethics-in-tech-talk',
       type: 'talk',
       onHome: true
     },
-    {
-      name: 'Brand new event',
-      desc: 'Description for the new event.',
-      date: '2019-01-11', // YYYY-MM-DD
-      path: '/events/new', // PATH
-      type: 'hack',
-      onHome: false // OPTIONAL
-    },
-    {
-      name: 'Live music coding w/ Joanne Armitage',
-      desc: 'Learn how to code music and edit it live, on the programs SuperCollider and Hydra.',
-      date: '2020-10-04',
-      path: '/events/live-music-coding.vue',
-      type: 'workshop'
-    }
+    // {
+    //   name: 'Brand new event',
+    //   desc: 'Description for the new event.',
+    //   date: '2019-01-11', // YYYY-MM-DD
+    //   path: '/events/new', // PATH
+    //   type: 'hack',
+    //   onHome: false // OPTIONAL
+    // },
+    // {
+    //   name: 'Live music coding w/ Joanne Armitage',
+    //   desc: 'Learn how to code music and edit it live, on the programs SuperCollider and Hydra.',
+    //   date: '2020-10-04',
+    //   path: '/events/live-music-coding',
+    //   type: 'workshop'
+    // }
   ]
 })
 
