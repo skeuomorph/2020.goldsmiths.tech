@@ -34,7 +34,7 @@ export default {
         name: 'Ethics in modern tech',
         desc: 'A series of talks on the same day, all about the ways in which ethics are considered and ignored in modern applications of tech.',
         buttons: [
-          { label: 'Get free tickets', path: 'https://www.eventbrite.co.uk/e/ethics-in-modern-day-tech-talk-series-tickets-69192409359' }
+          { label: 'Get free tickets', path: 'https://www.eventbrite.co.uk/e/ethics-in-tech-conference-tickets-73748841771' }
         ]
       },
 

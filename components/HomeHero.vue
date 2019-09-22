@@ -38,8 +38,8 @@ export default {
           desc: 'Supporting students and staff to run their tech events with mentorship and funding.'
         },
         {
-          title: 'AV Events',
-          desc: 'A series of nights put on by Hacksmiths which aims to introduce digital arts students from Goldsmiths, to DJs and performers (internal and external). Each night will be a combination of music and visual arts created to fit the music. BYOB! '
+          title: 'Nights',
+          desc: 'Digital arts students create music-responsive visuals for DJs/ performers. Cheap drinks, location 20 mins from Goldsmiths and will be disclosed via email.'
         }
       ]
     }
