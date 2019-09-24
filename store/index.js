@@ -65,13 +65,13 @@ export const state = () => ({
     //   type: 'hack',
     //   onHome: false // OPTIONAL
     // },
-    // {
-    //   name: 'Live music coding w/ Joanne Armitage',
-    //   desc: 'Learn how to code music and edit it live, on the programs SuperCollider and Hydra.',
-    //   date: '2020-10-04',
-    //   path: '/events/live-music-coding',
-    //   type: 'workshop'
-    // }
+    {
+      name: 'Live music coding w/ Joanne Armitage',
+      desc: 'Learn how to code music and edit it live, on the programs SuperCollider and Hydra.',
+      date: '2020-10-04',
+      path: '/events/live-music-coding',
+      type: 'workshop'
+    }
   ]
 })
 
