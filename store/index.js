@@ -50,10 +50,10 @@ export const state = () => ({
     //   type: 'night'
     // },
     {
-      name: 'Ethics in modern tech',
+      name: 'Ethics in modern AI',
       desc: 'A series of talks by academics, looking at the ways in which ethics are considered/ ignored in modern day applications of tech.',
       date: '2019-10-12',
-      path: '/events/ethics-in-tech-talk',
+      path: '/events/ethics-in-modern-ai',
       type: 'talk',
       onHome: true
     },
