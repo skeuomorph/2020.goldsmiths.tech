@@ -32,7 +32,7 @@ export default {
         name: 'Live music coding w/ Joanne Armitage',
         desc: 'A 2hr workshop on SuperCollider for beginners',
         buttons: [
-          { label: 'Get free tickets', path: 'https://www.eventbrite.co.uk/e/live-music-coding-w-joanne-armitage-tickets-73831041633' }
+          { label: 'Get free tickets, please re-claim if you claimed the previous ones', path: 'https://www.eventbrite.co.uk/e/live-music-coding-workshop-w-joanne-armitage-tickets-77183334431' }
         ]
       },
 
@@ -44,7 +44,7 @@ export default {
         },
         {
           title: 'Where',
-          content: 'Goldsmiths, University of London<br>SE14 6AD<br><br>Room TBA'
+          content: 'RHB 355<br>Goldsmiths, University of London<br>SE14 6AD'
     
         },
         {
