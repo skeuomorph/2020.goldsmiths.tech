@@ -17,7 +17,7 @@ export const state = () => ({
      {
        name: 'Lovelace - Halloween',
        desc: 'Presenting electronic magnetic field fluctuations (i.e ghosts) using Ableton as a musical medium.',
-       date: '2019-10-01',
+       date: '2019-10-30',
        path: '/events/lovelace-halloween',
        type: 'workshop'
      },
