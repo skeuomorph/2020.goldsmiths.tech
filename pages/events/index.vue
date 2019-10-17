@@ -36,13 +36,14 @@ export default {
   },
   computed: {
     events() {
+      var pastEvents= this.$store.getters.pastEvents;
       return {
         talks: this.$store.getters.eventsOfType('talk'),
         nights: this.$store.getters.eventsOfType('night'),
         hacks: this.$store.getters.eventsOfType('hack'),
         workshops: this.$store.getters.eventsOfType('workshop'),
         gigs: this.$store.getters.eventsOfType('gigs'),
-        past: this.$store.getters.pastEvents
+        past: {outstanding:pastEvents.length, past: [], upcoming:pastEvents}
       }
     }
   },
