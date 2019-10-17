@@ -14,13 +14,13 @@ export const state = () => ({
     //   path: '/events/anvil',
     //   type: 'hack',
     // },
-    // {
-    //   name: 'Talk 1',
-    //   desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
-    //   date: '2019-10-01',
-    //   path: '/events/talks',
-    //   type: 'talk'
-    // },
+     {
+       name: 'Lovelace - Halloween',
+       desc: 'Presenting electronic magnetic field fluctuations (i.e ghosts) using Ableton as a musical medium.',
+       date: '2019-10-01',
+       path: '/events/lovelace-halloween',
+       type: 'workshop'
+     },
     // {
     //   name: 'Talk 2',
     //   desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',

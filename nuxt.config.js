@@ -48,7 +48,8 @@ export default {
       '/events',
       '/events/doc',
       '/events/ethics-in-modern-ai',
-      '/events/live-music-coding'
+      '/events/live-music-coding',
+      '/events/lovelace-halloween'
     ]
   },
   /*
