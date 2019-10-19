@@ -27,7 +27,8 @@ export default {
   padding-bottom: 5em;
   background-size: cover;
   background-position: center;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
 }
 
@@ -42,10 +43,12 @@ img {
 h1 {
   margin: 1rem 0;
   font-size: 3em;
+  background-color: white;
 }
 
 h2 {
   margin: 1rem 0 2rem;
+  background-color: white;
 }
 
 .container {
@@ -55,6 +58,7 @@ h2 {
 .btn {
   margin-left: 1em;
   margin-right: 1em;
+  background-color:#c00080;
 }
 
 @media screen and (max-width: 960px) {

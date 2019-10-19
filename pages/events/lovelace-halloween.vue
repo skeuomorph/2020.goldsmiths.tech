@@ -4,9 +4,9 @@
     <!-- Content inside of the EventIntroText tags will display on the left-hand side of the intro section, below the hero unit -->
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>Lovelace - Halloween</h2>
-      <p>At the hackathon over the weekend, you will use your technical and creative skills to make something wonderful, arty, musical - anything you build will be awesome. We'll provide you with food, drink, electricity and internet, so that you can get on with the real work - making cool and engaging projects!</p>
-      <p>As well as access to our carefully curated Hacksmiths Hardware Lab, expect support from mentors and even more useful workshops for the duration of the event.</p>
-      <p>Find out more <a href='#'>here</a>.</p>
+      <p>This year, Lovelace will have a different theme each term. Autumn's theme is Identities and Reality, and how the two interact / conflict with each other.</p>
+      <p>Using our phones as detectors, we will be passing electromagnetic field fluctuations (i.e ghosts) through an OSC filter to give our ghosts some voices!</p>
+      <p>All we require you bring is a phone and a laptop. Refreshments + snacks provided!</p>
     </EventIntroText>
 
     <!-- Can comment this out if you do not want to display the supporters section -->
@@ -27,13 +27,12 @@ export default {
       // This section is for the hero unit content
       // Assets go in /static
       hero: {
-        background: '/events/doc/hero.jpg',
-        logo: '/events/doc/logo.svg',
-        name: 'DoC Hack',
-        desc: 'The flagship creative tech & performance hackathon by Hacksmiths',
+        background: '/events/lovelace/hallo-banner.png',
+        logo: '/events/lovelace/love-hallo.svg',
+        name: 'Lovelace - Halloween',
+        desc: 'A series of workshops and socials for women and non-binary people interested in tech.',
         buttons: [
-          { label: 'Highlights from 2019', path: '/highlights' },
-          { label: 'Get free tickets', path: '/tix' }
+          { label: 'Get free tickets', path: 'https://www.eventbrite.co.uk/e/lovelace-halloween-2019-tickets-77622951337' }
         ]
       },
 
@@ -41,15 +40,15 @@ export default {
       introTextSidebarItems: [
         {
           title: 'When',
-          content: '13-14 April 2019'
+          content: '5pm, 30th October 2019'
         },
         {
           title: 'Where',
-          content: 'St James Hatcham Building<br>Goldsmiths, University of London<br>SE14 6AD'
+          content: 'RHB 355<br>Goldsmiths, University of London<br>SE14 6AD'
         },
         {
           title: 'Twitter',
-          content: '#DoCHack'
+          content: '#Lovelace'
         }
       ],
 
@@ -62,12 +61,11 @@ export default {
       // List of FAQs
       faqs: [
         {
-          q: `What is a hackathon`,
-          a: `Hackathons are invention marathons for developers, designers, psychologists, researchers and more. During the event, participants ('hackers') will build projects that answer our challenges to build awesome creative projects.`
-        },
-        {
-          q: `Who owns the projects?`,
-          a: `All projects built at this event belongs completely to the teams. However, to generate the widest benefit from this event, we encourage attendees to provide Open Source licenses for the results of their work.`
+          q: `Can I attend if I identify as male?`,
+          a: `This is a safe-space for women and non-binary people at Goldsmiths. As there are such few women on the Computing courses, 
+          we provide spaces for marginalised voices to say how they really feel in an open environment. To do this, we need to ensure that
+          no pre-existing hierarchies infringe on their comfortability in doing so, and that includes gender hierarchies. Therefore, unfortunately
+          no men are allowed at Lovelace events. `
         },
         {
           q: 'What should I bring?',
@@ -76,14 +74,6 @@ export default {
         {
           q: 'How much does it cost?',
           a: `We want to make this event accessible for everyone, so there is no charge to enter. To make this possible, we need sponsorship.`
-        },
-        {
-          q: `I don't think this is for me`,
-          a: `We really mean it when we say we welcome beginners - you can ask for help judgement-free, and if you need to step awa yfrom the action we'll have a designated quiet room available for you to use.`
-        },
-        {
-          q: `Do I need a team?`,
-          a: `You don’t need a team to take part; it’s perfectly acceptable to create a solo project. However, during the event itself, there will be opportunities to share ideas and connect with your fellow hackers to form a team. As organisers, we’ll do our best to encourage and facilitate teamwork across the weekend.`
         }
       ]
     }
