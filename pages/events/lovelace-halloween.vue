@@ -4,7 +4,7 @@
     <!-- Content inside of the EventIntroText tags will display on the left-hand side of the intro section, below the hero unit -->
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>Lovelace - Halloween</h2>
-      <p>This year, Lovelace will have a different theme each term. Autumn's theme is Identities and Reality, and how the two interact / conflict with each other.</p>
+      <p>This year, Lovelace will have a different theme each term. Autumn's theme is "Identities and Reality", and how the two interact / conflict with each other.</p>
       <p>Using our phones as detectors, we will be passing electromagnetic field fluctuations (i.e ghosts) through an OSC filter to give our ghosts some voices!</p>
       <p>All we require you bring is a phone and a laptop. Refreshments + snacks provided!</p>
     </EventIntroText>
@@ -69,7 +69,7 @@ export default {
         },
         {
           q: 'What should I bring?',
-          a: 'All participants will need to bring their laptop, charger(s) and any other devices they wish to work on.'
+          a: 'All participants will need to bring their smartphones, laptops, charger(s) and any other devices they wish to work on.'
         },
         {
           q: 'How much does it cost?',
