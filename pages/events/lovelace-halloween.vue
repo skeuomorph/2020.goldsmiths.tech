@@ -44,7 +44,7 @@ export default {
         },
         {
           title: 'Where',
-          content: 'RHB 355<br>Goldsmiths, University of London<br>SE14 6AD'
+          content: 'Goldsmiths, University of London<br>SE14 6AD'
         },
         {
           title: 'Twitter',
