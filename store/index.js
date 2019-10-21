@@ -21,13 +21,13 @@ export const state = () => ({
        path: '/events/lovelace-halloween',
        type: 'workshop'
      },
-    // {
-    //   name: 'Talk 2',
-    //   desc: 'lorem ipsum talk title to explore a thing or two or maybe more.',
-    //   date: '2019-11-21',
-    //   path: '/events/talks',
-    //   type: 'talk'
-    // },
+     {
+       name: 'Microsoft AI Gaming Mini-hack',
+       desc: 'Exploring the new Microsoft AI gaming modules.',
+       date: '2019-11-21',
+       path: '/events/microsoft-ai-minihack',
+       type: 'hack'
+     },
     // {
     //   name: 'TBA',
     //   // desc: 'Ad astra et infinitum.',
