@@ -3,7 +3,7 @@
     <div class="links">
       <div class="top">
         <n-link to='/contact'>Contact</n-link>
-        <n-link to='https://github.com/hacksmiths/code-of-conduct/blob/master/README.md'>Code of Conduct</n-link>
+        <a href="https://github.com/hacksmiths/code-of-conduct">Code of Conduct</a>
       </div>
       <div class="bottom">
         <n-link to='/'>&copy; 2014-{{ currentDate }} Hacksmiths</n-link>
