@@ -6,6 +6,7 @@
     <nav>
       <n-link to='/'>Home</n-link>
       <n-link to='/events'>Events</n-link>
+      <n-link to='/past'>Past</n-link>
       <n-link to='/team'>Team</n-link>
       <n-link to='/about'>About</n-link>
       <n-link to='/contact'>Contact</n-link>
