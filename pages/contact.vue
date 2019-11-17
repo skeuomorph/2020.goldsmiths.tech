@@ -7,7 +7,7 @@
       <li><a href="http://m.me/smithsbot">Messenger Bot</a></li>
       <li><a href="https://twitter.com/hacksmiths">Twitter</a></li>
       <li><a href="https://instagram.com/hacksmiths">Instagram</a></li>
-      <li><a href="mailto:team@goldsmiths.tech">Email</a></li>
+      <li><a href="mailto:hacksmiths@goldsmithssu.org">Email</a></li>
     </ul>
   </div>
 </template>
