@@ -2,9 +2,6 @@
   <div id='contact' class='container'>
     <h1>Contact Hacksmiths</h1>
       <div id="links">
-        <a href="https://www.facebook.com/hacksmiths">
-        <i class="fab fa-facebook-f"></i>
-        </a>
         <a href="https://www.facebook.com/groups/1826544797377921">
         <i class="fab fa-facebook-square"></i></a> 
         <a href="http://m.me/smithsbot">
