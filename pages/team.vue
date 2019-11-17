@@ -25,10 +25,10 @@ export default {
           pic: '/team/markela.jpg'
         },
         {
-          name: 'Kamal Jones',
-          role: 'BME rep',
-          email: 'kjone003@gold.ac.uk',
-          pic: '/team/kamal.jpg'
+          name: 'Mohamed Abanour',
+          role: 'Committee Member',
+          email: 'maban001@gold.ac.uk',
+          pic: '/team/mohamed.jpeg'
         },
         {
           name: 'Elhassania Ghazoini',
@@ -65,6 +65,24 @@ export default {
           role: 'Committee Member',
           email: 'fbrie002@gold.ac.uk',
           pic: '/team/fran.png'
+        },
+        {
+          name: 'Daniel Cosby',
+          role: 'Committee Member',
+          email: 'dcosb001@gold.ac.uk',
+          pic: '/team/dan.jpeg'
+        },
+        {
+          name: 'Aanandita Gupta',
+          role: 'Volunteer',
+          email: 'agupt001@gold.ac.uk',
+          pic: '/team/andy.jpeg'
+        },
+        {
+          name: 'Caroline Gustafsson',
+          role: 'Volunteer',
+          email: 'cgust001@gold.ac.uk',
+          pic: '/team/caroline.jpeg'
         }
       ]
     }
