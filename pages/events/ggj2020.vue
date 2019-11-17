@@ -92,7 +92,7 @@ export default {
          },
          {
            q: 'Food???',
-           a: 'We will be providing meals, snacks, and drinks over the weekend. More details will be released when we get receive the official GGJ schedule.'
+           a: 'We will be providing meals, snacks, and drinks over the weekend. More details will be released when we receive the official GGJ schedule.'
          },
          {
            q: 'Is there a Code of Conduct?',
