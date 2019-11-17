@@ -50,7 +50,8 @@ export default {
       '/events/ethics-in-modern-ai',
       '/events/live-music-coding',
       '/events/lovelace-halloween',
-      '/events/microsoft-ai-gaming'
+      '/events/microsoft-ai-gaming',
+      '/events/ggj2020'
     ]
   },
   /*

@@ -27,7 +27,7 @@ export default {
       // This section is for the hero unit content
       // Assets go in /static
       hero: {
-        background: '/events/lovelace/hallo-banner.png',
+        background: '/events/lovelace/hallo-banner2.jfif',
         logo: '/events/lovelace/love-hallo.svg',
         name: 'Lovelace - Halloween',
         desc: 'A series of workshops and socials for women and non-binary people interested in tech.',

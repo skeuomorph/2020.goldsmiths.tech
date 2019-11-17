@@ -16,18 +16,18 @@ export const state = () => ({
     // },
      {
        name: 'Lovelace - Halloween',
-       desc: 'Presenting electronic magnetic field fluctuations (i.e ghosts) using Ableton as a musical medium.',
+       desc: 'Presenting electromagnetic field fluctuations (i.e ghosts) using Ableton as a musical medium.',
        date: '2019-10-30',
        path: '/events/lovelace-halloween',
        type: 'workshop'
      },
-     {
-       name: 'Microsoft AI Gaming Mini-hack',
-       desc: 'Exploring the new Microsoft AI gaming modules.',
-       date: '2019-11-21',
-       path: '/events/microsoft-ai-minihack',
-       type: 'hack'
-     },
+    // {
+    //   name: 'Microsoft AI Gaming Mini-hack',
+    //   desc: 'Exploring the new Microsoft AI gaming modules.',
+    //   date: '2019-11-21',
+    //   path: '/events/microsoft-ai-minihack',
+    //   type: 'hack'
+    //},
     // {
     //   name: 'TBA',
     //   // desc: 'Ad astra et infinitum.',
@@ -42,13 +42,13 @@ export const state = () => ({
     //   path: '/events/nights',
     //   type: 'night'
     // },
-    // {
-    //   name: 'TBA',
-    //   desc: 'Ad astra et infinitum.',
-    //   date: '2019-10-31',
-    //   path: '/events/workshops',
-    //   type: 'night'
-    // },
+    {
+      name: 'Global Game Jam 2020',
+      desc: 'Spend a weekend building interactive playable experiences - both digital and tabletop. You will get support from mentors, and take part in a friendly shared demo.',
+      date: '2020-01-31',
+      path: '/events/ggj2020',
+      type: 'hack'
+    },
     {
       name: 'Ethics in modern AI',
       desc: 'A series of talks by academics, looking at the ways in which ethics are considered/ ignored in modern day applications of tech.',
@@ -67,7 +67,7 @@ export const state = () => ({
     // },
     {
       name: 'Live music coding w/ Joanne Armitage',
-      desc: 'Learn how to code music and edit it live, on the programs SuperCollider and Hydra.',
+      desc: 'Learn how to code music and edit it live using SuperCollider.',
       date: '2019-10-25',
       path: '/events/live-music-coding',
       type: 'workshop'

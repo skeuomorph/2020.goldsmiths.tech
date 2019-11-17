@@ -27,8 +27,7 @@ export default {
   padding-bottom: 5em;
   background-size: cover;
   background-position: center;
-  background-color: white;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -43,12 +42,10 @@ img {
 h1 {
   margin: 1rem 0;
   font-size: 3em;
-  background-color: white;
 }
 
 h2 {
   margin: 1rem 0 2rem;
-  background-color: white;
 }
 
 .container {

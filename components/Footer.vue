@@ -19,7 +19,7 @@
         <a href="https://instagram.com/hacksmiths"><i class="fab fa-instagram"></i></a>
       </div>
       <div class="bottom">
-        <a href="mailto:team@goldsmiths.tech">team@goldsmiths.tech</a>
+        <a href="mailto:hacksmiths@goldsmithssu.org">hacksmiths@goldsmithssu.org</a>
       </div>
     </div>
   </footer>
