@@ -95,7 +95,7 @@ export default {
            a: 'We will be providing meals, snacks, and drinks over the weekend. More details will be released when we get receive the official GGJ schedule.'
          },
          {
-           q: 'Is there a Code of Conduct',
+           q: 'Is there a Code of Conduct?',
            a: 'Yes, and you must agree to it before attending. You can find it in the footer of this page.'
          }
       ]
