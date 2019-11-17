@@ -30,6 +30,7 @@ h2 {
 }
 .item {
   margin-bottom: 1.5em;
+  margin: 1em;
   display: flex;
   flex-direction: column;
 }
