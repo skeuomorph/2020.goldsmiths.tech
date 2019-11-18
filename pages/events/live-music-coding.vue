@@ -6,6 +6,9 @@
       <h2>Learn SuperCollider, a language and server built into one..</h2>
       <p>SuperCollider is an environment and programming language originally released in 1996 by James McCartney for real-time audio synthesis and algorithmic composition.</p>
       <p>Joanne Armitage is one half of Algobabez, and a pioneer of algoraves here in the UK. She is also currently researching in Leeds, focusing on haptics in music performance.</p>
+
+      <h3>This is a past event. See footage of the event below!</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8OaYSC2FmeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <!-- <p>Find out more <a href='#'>here</a>.</p> -->
     </EventIntroText>
 
