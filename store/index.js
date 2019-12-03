@@ -57,14 +57,14 @@ export const state = () => ({
       type: 'talk',
       onHome: true
     },
-    // {
-    //   name: 'Brand new event',
-    //   desc: 'Description for the new event.',
-    //   date: '2019-01-11', // YYYY-MM-DD
-    //   path: '/events/new', // PATH
-    //   type: 'hack',
-    //   onHome: false // OPTIONAL
-    // },
+    {
+      name: 'Career Hack',
+      desc: 'A 4hr event where attendees form teams, complete challenges, and take part in a Dragons Den style competition.',
+      date: '2020-02-12', // YYYY-MM-DD
+      path: '/events/career', // PATH
+      type: 'hack',
+      onHome: false // OPTIONAL
+    },
     {
       name: 'Live music coding w/ Joanne Armitage',
       desc: 'Learn how to code music and edit it live using SuperCollider.',

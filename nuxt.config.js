@@ -51,7 +51,8 @@ export default {
       '/events/live-music-coding',
       '/events/lovelace-halloween',
       '/events/microsoft-ai-gaming',
-      '/events/ggj2020'
+      '/events/ggj2020',
+      '/events/career'
     ]
   },
   /*
