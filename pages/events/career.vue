@@ -41,7 +41,7 @@ export default {
         background: '/events/career/banner.jfif',
         logo: '/events/logoPink.svg',
         name: 'Career Hack',
-        desc: 'A 4hr event where attendees form teams, complete challenges, and take part in a Dragons Den style competition.',
+        desc: 'A 4hr event where attendees form teams, complete challenges, and take part in a Dragons Den styled competition.',
         buttons: [
           { label: 'Get free tickets!', path: 'https://www.eventbrite.co.uk/e/career-hack-goldsmiths-tickets-84725655717' }
         ]
