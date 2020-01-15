@@ -57,14 +57,14 @@ export const state = () => ({
       type: 'talk',
       onHome: true
     },
-    {
+    /*{
       name: 'Career Hack',
       desc: 'A 4hr event where attendees form teams, complete challenges, and take part in a Dragons Den styled competition.',
       date: '2020-02-12', // YYYY-MM-DD
       path: '/events/career', // PATH
       type: 'hack',
       onHome: false // OPTIONAL
-    },
+    },*/
     {
       name: 'Live music coding w/ Joanne Armitage',
       desc: 'Learn how to code music and edit it live using SuperCollider.',

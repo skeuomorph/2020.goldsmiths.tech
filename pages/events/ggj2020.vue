@@ -6,7 +6,47 @@
       <h2>Get together and create games in one weekend at Goldsmiths, University of London.</h2>
       <p>At Global Game Jam we gather game developers, designers, and interactive storytellers to build games over the course of a weekend. Each game will be focused around a secret theme, which is released at the start of the event.</p>
       <p>We are here to enable you to build your ideas - whether they're tabletop games, physical computing projects, choose-your-own-adventure text games, or something more complex.</p>
-      <p></p>
+      <br>
+      <h3>Programme</h3>
+<p><i>Friday 31st Jan</i>
+<br>
+14:00 - 15:00: Registration
+<br>
+15:00 - 17:00: Intro talks by Federico Fasce, Alan Zucconi, Sarah Wiseman, and Gorm Lai
+<br>
+17:00: Theme announced! Get buildin'
+<br>
+18:30: Dinner - Pizza (Vegan options available, please speak to Hacksmiths team if gluten free)
+<br>
+19:30 - 21:00: Goldsmiths' Gaming Society mini-event
+<br>
+~~zzz - We will be providing 30 airbeds for people who want to stay over the weekend and sesh, but these will be prioritised for those who live far out. Breakfast provided for overnight jammers.
+<br>
+<br>
+<i>Saturday 1st Feb</i>
+<br>
+11:00 - 12:00: Amy Dickens (Pusher) - "Optimising real-time events in games from a UX perspective"
+<br>
+12:00: Lunch (Vegan options available, please speak to Hacksmiths team if gluten free)
+<br>
+14:00 - 15:00: Hannah Rose - "Personal games, and why game jams are strangely a good place for them"
+<br>
+16:00 - 17:00: Claire Blackshaw - Title TBC
+<br>
+17:30 - 18:30: Sergio Ronchetti - "Using Fmod to add audio to your games"
+<br>
+18:30: Dinner - Chicken / Pumpkin Katsu curry
+<br>
+~~zzz - We will be providing 30 airbeds for people who want to stay over the weekend and sesh, but these will be prioritised for those who live far out. Breakfast provided for overnight jammers
+<br>
+<br>
+<i>Sunday 2nd Feb</i>
+<br>
+13:00 - 15:00: Submit games to official Global Game Jam website
+<br>
+15:00 - 16:30: Receive a cup of tokens, try everyone's games, place a token in the cups of games you like
+<br>
+16:30 - 17:00: Game with the most tokens is announced! Followed by the closing speech :)</p>
       <!-- <p>Find out more <a href='#'>here</a>.</p> -->
     </EventIntroText>
 
