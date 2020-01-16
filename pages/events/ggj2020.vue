@@ -12,7 +12,7 @@
 <br>
 14:00 - 15:00: Registration
 <br>
-15:00 - 17:00: Intro talks by Federico Fasce, Alan Zucconi, Sarah Wiseman, and Gorm Lai
+15:00 - 17:00: Intro talks! Keynote by Gorm Lai, co-founder of Global Game Jam, alongside Federico Fasce, Alan Zucconi, and Sarah Wiseman, from the Department of Computing at Goldsmiths
 <br>
 17:00: Theme announced! Get buildin'
 <br>
@@ -31,7 +31,7 @@
 <br>
 14:00 - 15:00: Hannah Rose - "Personal games, and why game jams are strangely a good place for them"
 <br>
-16:00 - 17:00: Claire Blackshaw - Title TBC
+16:00 - 17:00: Claire Blackshaw - "You want to try making games, but can you pay rent? Instead of the success/ failure binary, let's talk about the spectrum from hobbyist to studio pro, and how you can make money at each stage in between"
 <br>
 17:30 - 18:30: Sergio Ronchetti - "Using Fmod to add audio to your games"
 <br>
