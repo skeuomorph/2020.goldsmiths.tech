@@ -29,6 +29,8 @@
 <br>
 12:00: Lunch (Vegan options available, please speak to Hacksmiths team if gluten free)
 <br>
+13:00 - 14:00: Marijam Didžgalvytė - "Unionisation within the games industry"
+<br>
 14:00 - 15:00: Hannah Rose - "Personal games, and why game jams are strangely a good place for them"
 <br>
 16:00 - 17:00: Claire Blackshaw - "You want to try making games, but can you pay rent? Instead of the success/ failure binary, let's talk about the spectrum from hobbyist to studio pro, and how you can make money at each stage in between"
