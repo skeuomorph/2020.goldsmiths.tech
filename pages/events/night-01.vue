@@ -36,7 +36,7 @@ export default {
       // This section is for the hero unit content
       // Assets go in /static
       hero: {
-        background: '/events/night-01/banner.png',
+        background: '/events/night-01/banner2.png',
         logo: '/events/night-01/logo-icon.svg',
         name: 'Music night #01',
         desc: 'Our first live music night. 4 DJs, live coded visuals, BYOB!',
