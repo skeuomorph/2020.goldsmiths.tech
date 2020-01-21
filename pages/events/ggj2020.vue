@@ -98,7 +98,7 @@ export default {
 
       // These are the logos to show as supporters. These must be images in the /static/supporters directory, and must be in .png format. 
       // Leave array empty if you want to hide this section
-      supporters: ['goldsmiths', 'doc', 'goldsu', 'github'],
+      supporters: ['pusher', 'doc', 'goldsmiths'],
       // If false, the line asking for sponsorship will not show
       askForSponsorship: true,
 
