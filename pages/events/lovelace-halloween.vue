@@ -6,7 +6,12 @@
       <h2>Lovelace - Halloween</h2>
       <p>This year, Lovelace will have a different theme each term. Autumn's theme is "Identities and Reality", and how the two interact / conflict with each other.</p>
       <p>Using our phones as detectors, we will be passing electromagnetic field fluctuations (i.e ghosts) through an OSC filter to give our ghosts some voices!</p>
-      <p>All we require you bring is a phone and a laptop. Refreshments + snacks provided!</p>
+      <br>
+      <h3>This is a past event. Please find content below:</h3>
+      <!--<a href='/humanCompatiblePR.docx'>The EMF detector can be accessed here.</a> -->
+
+      <p>EMF detector in action:</p>
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/eLS8kW3UeqA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
     </EventIntroText>
 
     <!-- Can comment this out if you do not want to display the supporters section -->

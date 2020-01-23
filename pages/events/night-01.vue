@@ -5,6 +5,7 @@
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>Join us for our first ever live music night!</h2>
       <p>4 hrs of back-to-back DJ sets, alongside live coded visuals using PraxisLIVE. <br> ! CONTENT WARNING ! : some imagery may be considered disturbing </p>
+        <img src="night01.png" width="750" height="1000">
         <br>
       <h3>SET TIMES:</h3>
       <p>
@@ -63,7 +64,7 @@ export default {
 
       // These are the logos to show as supporters. These must be images in the /static/supporters directory, and must be in .png format. 
       // Leave array empty if you want to hide this section
-      supporters: ['goldsmiths', 'doc', 'goldsu', 'github'],
+      supporters: ['goldsmiths', 'doc', 'goldsu'],
       // If false, the line asking for sponsorship will not show
       askForSponsorship: true,
 
