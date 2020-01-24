@@ -5,7 +5,7 @@
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>Join us for our first ever live music night!</h2>
       <p>4 hrs of back-to-back DJ sets, alongside live coded visuals using PraxisLIVE. <br> ! CONTENT WARNING ! : some imagery may be considered disturbing </p>
-        <img src="night01.png" width="750" height="1000">
+        <img src="night01.png" width="550" height="700">
         <br>
       <h3>SET TIMES:</h3>
       <p>
