@@ -4,23 +4,9 @@
     <!-- Content inside of the EventIntroText tags will display on the left-hand side of the intro section, below the hero unit -->
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>Take part in some friendly competition, where your employability skills will be highlighted and developed.</h2>
-      <p>For the first part of the event, attendees will be grouped into teams and asked to complete icebreaker mini-challenges. We aim to provide a broad set of challenges, so that no matter your interests, you will find something to participate in.
-        There will be mentors available for the teams, both at the start, and then to help them for a Dragon's Den style challenge at the end. <br>Teams will be asked to create a concept/ product/ service, revolving around one out of four topics (outlined below). Teams and their concepts
-        will then be judged by employers from the tech industry. 
-        
-        As this is a friendly, there are no winners or losers. Your final team concept will be judged positively, and constructively critiqued.
+      <p>Attendees will be grouped into teams and asked to complete as many out of 50 mini-challenges as possible. We aim to provide a broad set of challenges, so that no matter your interests, you will find something to participate in.
       </p>
-
-      <p>The themes for the Dragon's Den challenge are:</p>
-    <ul>
-        <li>Sustainability</li>
-        <li>Accessibility and Inclusion</li>
-        <li>Health (mental and physical)</li>
-        <li>Privacy</li>
-    </ul>
-
-    <p>Please make sure to do some research on recent developments in these fields, and there will be time to do research together in your teams. </p>
-
+      <p>Employers and mentors will be around to offer advice, and ask you about your processes as a team.</p>
     <p>Official timings and sponsors to be announced soon!</p>
       <!-- <p>Find out more <a href='#'>here</a>.</p> -->
     </EventIntroText>
@@ -46,9 +32,9 @@ export default {
         background: '/events/career/banner.jfif',
         logo: '/events/logoPink.svg',
         name: 'Career Hack',
-        desc: 'An event over 4hrs where you will form teams of 5, complete some icebreaker mini-challenges, and take part in a Dragons Den styled competition at the end.',
+        desc: 'Build lots of fun small projects, meet potential employers, and have fun showing your skills at Career Hack',
         buttons: [
-          { label: 'Get free tickets!', path: 'https://www.eventbrite.co.uk/e/career-hack-goldsmiths-tickets-84725655717' }
+          { label: 'Get free tickets!', path: 'https://www.eventbrite.co.uk/e/career-hack-tickets-91605678049' }
         ]
       },
 

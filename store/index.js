@@ -59,7 +59,7 @@ export const state = () => ({
     },
     /*{
       name: 'Career Hack',
-      desc: 'A 4hr event where attendees form teams, complete challenges, and take part in a Dragons Den styled competition.',
+      desc: 'Build lots of fun small projects, meet potential employers, and have fun showing your skills at Career Hack',
       date: '2020-02-12', // YYYY-MM-DD
       path: '/events/career', // PATH
       type: 'hack',
