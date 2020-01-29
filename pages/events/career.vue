@@ -7,7 +7,6 @@
       <p>Attendees will be grouped into teams and asked to complete as many out of 50 mini-challenges as possible. We aim to provide a broad set of challenges, so that no matter your interests, you will find something to participate in.
       </p>
       <p>Employers and mentors will be around to offer advice, and ask you about your processes as a team.</p>
-    <p>Official timings and sponsors to be announced soon!</p>
       <!-- <p>Find out more <a href='#'>here</a>.</p> -->
     </EventIntroText>
 
@@ -63,10 +62,10 @@ export default {
 
       // List of FAQs
       faqs: [
-         {
+         //{
            //q: `What is a hackathon`,
            //a: `Hackathons are invention marathons for developers, designers, psychologists, researchers and more. During the event, participants ('hackers') will build projects that answer our challenges to build awesome creative projects.`
-         },
+         //},
          {
            q: 'What should I bring?',
            a: 'All participants will need to bring their laptop, charger(s) and any other devices they wish to work on.'
