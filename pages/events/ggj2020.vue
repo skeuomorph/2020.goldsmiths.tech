@@ -25,6 +25,8 @@
 <br>
 <i>Saturday 1st Feb</i>
 <br>
+10:00 - 11:00: Rex (Foam Game swords) - "In-depth design at Foam Game Swords"
+<br>
 11:00 - 12:00: Amy Dickens (Pusher) - "Optimising real-time events in games from a UX perspective"
 <br>
 12:00: Lunch (Vegan options available, please speak to Hacksmiths team if gluten free)
