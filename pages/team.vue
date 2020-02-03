@@ -74,13 +74,13 @@ export default {
         },
         {
           name: 'Aanandita Gupta',
-          role: 'Volunteer',
+          role: 'Committee Member',
           email: 'agupt001@gold.ac.uk',
           pic: '/team/andy.jpeg'
         },
         {
           name: 'Caroline Gustafsson',
-          role: 'Volunteer',
+          role: 'Committee Member',
           email: 'cgust001@gold.ac.uk',
           pic: '/team/caroline.jpeg'
         }
