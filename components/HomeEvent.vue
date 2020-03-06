@@ -1,6 +1,6 @@
 <template>
   <div>
-    <n-link to='/events' id='event' v-if="!events">
+    <n-link to='/events/no-digital-traces' id='event' v-if="!events">
       <h2>Check out our upcoming event "No Digital Traces" <i class="fas fa-arrow-circle-right"></i></h2>
     </n-link>
     <div v-else="" v-for="event in events" :key="event.id">
