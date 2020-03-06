@@ -1,18 +1,18 @@
 <template>
   <div id='home'>
-    <HomeHero />
     <HomeEvent />
+    <HomeHero />
   </div>
 </template>
 
 <script>
-import HomeHero from '~/components/HomeHero';
 import HomeEvent from '~/components/HomeEvent';
+import HomeHero from '~/components/HomeHero';
 
 export default {
   components: {
-    HomeHero,
-    HomeEvent
+    HomeEvent,
+    HomeHero
   }  
 }
 </script>

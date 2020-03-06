@@ -1,12 +1,12 @@
 export const state = () => ({
   events: [
-    // {
-    //   name: 'Global Game Jam',
-    //   desc: 'Build games.',
-    //   date: '2020-01-24',
-    //   path: '/events/global-game-jam',
-    //   type: 'hack'
-    // },
+    {
+      name: 'No Digital Traces',
+      desc: 'MA Computing research group discuss why we should consider alternative websites/ technologies, and the process of breaking away from the defaults that are pushed to us.',
+      date: '2020-03-16',
+      path: '/events/no-digital-traces',
+      type: 'talk'
+    },
     // {
     //   name: 'Anvil Hack V',
     //   desc: 'Build art.',
