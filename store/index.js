@@ -35,13 +35,13 @@ export const state = () => ({
     //   path: '/events/nights',
     //   type: 'night'
     // },
-    // {
-    //   name: 'TBA',
-    //   desc: 'Ad astra et infinitum.',
-    //   date: '2019-10-31',
-    //   path: '/events/nights',
-    //   type: 'night'
-    // },
+    {
+      name: 'An open discussion on Julian Assange',
+      desc: 'Join us for two hours to discuss Julian Assange, and how his case has evolved over the past decade.',
+      date: '2020-03-20',
+      path: '/events/discussion-about-assange',
+      type: 'talk'
+    },
     {
       name: 'Global Game Jam 2020',
       desc: 'Spend a weekend building interactive playable experiences - both digital and tabletop. You will get support from mentors, and take part in a friendly shared demo.',
