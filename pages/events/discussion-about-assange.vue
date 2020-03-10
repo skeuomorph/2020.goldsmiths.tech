@@ -54,7 +54,7 @@ export default {
         background: '/events/discussion-about-assange/banner.jpg',
         logo: '/events/logoPink.svg',
         name: 'An open discussion about Julian Assange',
-        desc: 'Join us for two hours to discuss Julian Assange, and how his case has evolved over the past decade. Skepticism and contradictory proof are welcome and encouraged.',
+        desc: 'Join us for two hours to discuss Julian Assange, and how his case has evolved over the past decade. Scepticism and contradictory proof are welcome and encouraged.',
         buttons: [
           { label: 'Get free tickets', path: 'https://www.eventbrite.co.uk/e/an-open-discussion-about-julian-assange-tickets-99019182039' }
         ]
