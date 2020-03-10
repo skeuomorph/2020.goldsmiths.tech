@@ -36,7 +36,7 @@ export const state = () => ({
     //   type: 'night'
     // },
     {
-      name: 'An open discussion on Julian Assange',
+      name: 'An open discussion about Julian Assange',
       desc: 'Join us for two hours to discuss Julian Assange, and how his case has evolved over the past decade.',
       date: '2020-03-20',
       path: '/events/discussion-about-assange',
