@@ -2,7 +2,10 @@
   <div id='event'>
     <EventHero :event='hero' />
     <EventIntroText :sidebar='introTextSidebarItems'>
-      <h2>What's this all about then?</h2>
+      <h2>This is a past event, please see footage below:</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/uVRdeJtIi6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <h2>The importance of creating provably beneficial AI</h2>
       <p>Technology is ingrained in most of our lives. When this is true, why is it that only a small fraction of us understand how our everyday choices are being steered by others, and the systems they create. Whether it's who Facebook is telling you to vote for, or what Amazon is telling you to buy, democracy and freedom are being tested. Academic experts give us their insight on why we should be embedding ethics into Artificial Intelligence in 2019.</p>
       <!--Add list here-->
       <br>

@@ -8,7 +8,7 @@
       </div>
       <div class="box">
         <h2>Workshops</h2>
-        <p>Short sessions, either as one-offs or part of a series. Technical skills, software, and languages taught somewhere that can build confidence in the new, and push the experienced even further.</p>
+        <p>Short sessions where either Hacksmiths or a guest aim to teach the audience something new, practically. These events tend to be smaller, and more personal.<br>Lovelace is our women and non-binary event series, which has been running since 2018!</p>
       </div>
       <div class="box">
         <h2>Talks</h2>
@@ -16,13 +16,19 @@
       </div>
       <div class="box">
         <h2>Nights</h2>
-        <p>Digital arts students create music-responsive visuals for DJ's/ performers. Cheap drinks, location 20 mins from Goldsmiths and will be disclosed via email.</p>
+        <p>Digital arts students create music-responsive visuals for DJ's/ performers.</p>
       </div>
+      <p></p>
+      <p></p>
+      <p></p>
+      <h2>Cancelled due to Covid19</h2>
+        <a href="https://2020.goldsmiths.tech/events/discussion-about-assange"><h3>An open discussion about Julian Assange</h3></a> 
+        <a href="http://localhost:3000/events/no-digital-traces/"><h3>No Digital Traces (research group)</h3></a> 
+      <br>
+      <br>
+      <br>
     </div>  
-    <EventsType title='Upcoming Hackathons' :events='events.hacks' noneText='There are no announced upcoming hackathons' />
-    <EventsType title='Upcoming Talks' :events='events.talks' noneText='There are no announced upcoming talks' />
-    <EventsType title='Upcoming Nights' :events='events.nights' noneText='There are no announced upcoming nights' />
-    <EventsType title='Upcoming Workshops' :events='events.workshops' noneText='There are no announced upcoming workshops'  />
+    
     <EventsType title='Past Events' :events='events.past' noneText='There are no past events' />
   </div>
 </template>

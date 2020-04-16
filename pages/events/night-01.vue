@@ -5,23 +5,29 @@
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h2>Join us for our first ever live music night!</h2>
       <p>4 hrs of back-to-back DJ sets, alongside live coded visuals using PraxisLIVE. <br> ! CONTENT WARNING ! : some imagery may be considered disturbing </p>
-        <img src="night01.png" width="550" height="700">
         <br>
-      <h3>SET TIMES:</h3>
+        <h2>Content from the night!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R2KBzLbGAGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/773953390&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <br>
+      <h3>DJs + SET TIMES:</h3>
       <p>
-18:00 - 19:00 - JOE ERRICK (extrapolation records) <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/938039&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-<br>
-19:00 - 20:00 - DJ GRAPEFRUIT (slow dance records) <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/2299474&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-<br>
-20:00 - 21:00 - DJ SOVNET <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/732873844&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-<br>
-21:00 - 22:00 - TERRIBILIS aka Ed Hardy Party (Quantum Natives) <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/54238346&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></p>
+        18:00 - 19:00 - JOE ERRICK (extrapolation records) <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/938039&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <br>
+        19:00 - 20:00 - DJ GRAPEFRUIT (slow dance records) <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/2299474&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <br>
+        20:00 - 21:00 - DJ SOVNET <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/732873844&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <br>
+        21:00 - 22:00 - TERRIBILIS aka Ed Hardy Party (Quantum Natives) <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/54238346&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        </p>
 
-    </EventIntroText>
 
-    <!-- Can comment this out if you do not want to display the supporters section -->
-    <EventSupporters :supporters='supporters' :askForSponsorship='askForSponsorship' v-if='supporters.length > 0' />
-    <EventFaq :faqs='faqs' />
+
+        </EventIntroText>
+        <!-- Can comment this out if you do not want to display the supporters section -->
+        <EventSupporters :supporters='supporters' :askForSponsorship='askForSponsorship' v-if='supporters.length > 0' />
+        <EventFaq :faqs='faqs' />
   </div>
 </template>
 
@@ -50,7 +56,7 @@ export default {
       introTextSidebarItems: [
         {
           title: 'When',
-          content: '6pm (time may change, watch this space)<br> 7th February 2020'
+          content: '6pm <br> 7th February 2020'
         },
         {
           title: 'Where',

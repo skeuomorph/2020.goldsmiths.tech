@@ -1,12 +1,5 @@
 export const state = () => ({
   events: [
-    {
-      name: 'No Digital Traces',
-      desc: 'MA Computing research group discuss why we should consider alternative websites/ technologies, and the process of breaking away from the defaults that are pushed to us.',
-      date: '2020-03-16',
-      path: '/events/no-digital-traces',
-      type: 'talk'
-    },
     // {
     //   name: 'Anvil Hack V',
     //   desc: 'Build art.',
@@ -14,20 +7,6 @@ export const state = () => ({
     //   path: '/events/anvil',
     //   type: 'hack',
     // },
-     {
-       name: 'Lovelace - Halloween',
-       desc: 'Presenting electromagnetic field fluctuations (i.e ghosts) using Ableton as a musical medium.',
-       date: '2019-10-30',
-       path: '/events/lovelace-halloween',
-       type: 'workshop'
-     },
-    {
-      name: 'Hacksmiths night #1',
-      desc: 'Our first live music night. 4 DJs, live coded visuals, BYOB!',
-      date: '2020-02-07',
-      path: '/events/night-01',
-      type: 'night'
-    },
     // {
     //   name: 'TBA',
     //   // desc: 'Ad astra et infinitum.',
@@ -36,11 +15,26 @@ export const state = () => ({
     //   type: 'night'
     // },
     {
-      name: 'An open discussion about Julian Assange',
-      desc: 'Join us for two hours to discuss Julian Assange, and how his case has evolved over the past decade.',
-      date: '2020-03-20',
-      path: '/events/discussion-about-assange',
-      type: 'talk'
+      name: 'Ethics in modern AI',
+      desc: 'A series of talks by academics, looking at the ways in which ethics are considered/ ignored in modern day applications of tech.',
+      date: '2019-10-12',
+      path: '/events/ethics-in-modern-ai',
+      type: 'talk',
+      onHome: true
+    },
+    {
+      name: 'Live music coding w/ Joanne Armitage',
+      desc: 'Learn how to code music and edit it live using SuperCollider.',
+      date: '2019-10-25',
+      path: '/events/live-music-coding',
+      type: 'workshop'
+    },
+    {
+      name: 'Lovelace - Halloween',
+      desc: 'Presenting electromagnetic field fluctuations (i.e ghosts) using Ableton as a musical medium.',
+      date: '2019-10-30',
+      path: '/events/lovelace-halloween',
+      type: 'workshop'
     },
     {
       name: 'Global Game Jam 2020',
@@ -48,14 +42,6 @@ export const state = () => ({
       date: '2020-01-31',
       path: '/events/ggj2020',
       type: 'hack'
-    },
-    {
-      name: 'Ethics in modern AI',
-      desc: 'A series of talks by academics, looking at the ways in which ethics are considered/ ignored in modern day applications of tech.',
-      date: '2019-10-12',
-      path: '/events/ethics-in-modern-ai',
-      type: 'talk',
-      onHome: true
     },
     {
       name: 'Career Hack',
@@ -66,11 +52,11 @@ export const state = () => ({
       onHome: false // OPTIONAL
     },
     {
-      name: 'Live music coding w/ Joanne Armitage',
-      desc: 'Learn how to code music and edit it live using SuperCollider.',
-      date: '2019-10-25',
-      path: '/events/live-music-coding',
-      type: 'workshop'
+      name: 'Hacksmiths night #1',
+      desc: 'Our first live music night. 4 DJs, live coded visuals, BYOB!',
+      date: '2020-02-07',
+      path: '/events/night-01',
+      type: 'night'
     }
   ]
 })

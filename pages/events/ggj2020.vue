@@ -3,6 +3,12 @@
     <EventHero :event='hero' />
     <!-- Content inside of the EventIntroText tags will display on the left-hand side of the intro section, below the hero unit -->
     <EventIntroText :sidebar='introTextSidebarItems'>
+      <h2>This is a past event, please see footage below:</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rK-baR3_cU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>
+      The playlist containing all talks and workshops can be found <a href="https://www.youtube.com/watch?v=WNMbxY-b-Xs&list=PLal29oNDkTmcWYt80pxi9UCoVJ8agXKxd&index=1">here</a> 
+      </p>
+      <br>
       <h2>Get together and create games in one weekend at Goldsmiths, University of London.</h2>
       <p>At Global Game Jam we gather game developers, designers, and interactive storytellers to build games over the course of a weekend. Each game will be focused around a secret theme, which is released at the start of the event.</p>
       <p>We are here to enable you to build your ideas - whether they're tabletop games, physical computing projects, choose-your-own-adventure text games, or something more complex.</p>
