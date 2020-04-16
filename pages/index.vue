@@ -1,6 +1,5 @@
 <template>
   <div id='home'>
-    <HomeEvent />
     <HomeHero />
   </div>
 </template>

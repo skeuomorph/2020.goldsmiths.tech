@@ -8,7 +8,7 @@
       </div>
       <div class="box">
         <h2>Workshops</h2>
-        <p>Short sessions where either Hacksmiths or a guest aim to teach the audience something new, practically. These events tend to be smaller, and more personal.<br>Lovelace is our women and non-binary event series, which has been running since 2018!</p>
+        <p>Short sessions, smaller audience, where we encourage you to "learn by doing". Lovelace is our women and non-binary workshop series, which has been running since 2017!</p>
       </div>
       <div class="box">
         <h2>Talks</h2>
@@ -21,8 +21,11 @@
       <p></p>
       <p></p>
       <p></p>
+      <p>
       <h2>Cancelled due to Covid19</h2>
+      <br>
         <a href="https://2020.goldsmiths.tech/events/discussion-about-assange"><h3>An open discussion about Julian Assange</h3></a> 
+      <br>
         <a href="http://localhost:3000/events/no-digital-traces/"><h3>No Digital Traces (research group)</h3></a> 
       <br>
       <br>

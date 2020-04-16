@@ -31,7 +31,7 @@ export default {
         },
         {
           title: 'Lovelace',
-          desc: 'A social event series for women and non binary people interested in technology at goldsmiths. Suitable for all skill levels.'
+          desc: 'A social event series for women and non binary people interested in technology at Goldsmiths. Suitable for all skill levels.'
         },
         {
           title: 'Community series',
@@ -39,7 +39,7 @@ export default {
         },
         {
           title: 'Nights',
-          desc: 'Digital arts students create music-responsive visuals for DJs/ performers. Cheap drinks, location 20 mins from Goldsmiths and will be disclosed via email.'
+          desc: 'Digital arts students create music-responsive visuals for DJs/ performers.'
         }
       ]
     }
