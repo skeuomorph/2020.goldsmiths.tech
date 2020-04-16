@@ -2,7 +2,6 @@
   <div>
     <Header />
     <nuxt />
-    <Join />
     <Footer />
   </div>
 </template>

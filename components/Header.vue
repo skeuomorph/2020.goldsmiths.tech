@@ -9,7 +9,7 @@
       <n-link to='/events'>Events</n-link>
       <n-link to='/team'>Team</n-link>
       <n-link to='/contact'>Contact</n-link>
-      <a href='/join' class='btn'>Join for free</a>
+      <a href='https://www.goldsmithssu.org/activities/list/group/hacksmiths/' class='btn'>Join for free</a>
     </nav>
   </header>
 </template>
