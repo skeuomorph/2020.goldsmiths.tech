@@ -32,6 +32,7 @@
       <br>
     </div>  
     
+    <EventsType title='Upcoming Hackathons' :events='events.hacks' noneText='There are no announced upcoming hackathons' />
     <EventsType title='Past Events' :events='events.past' noneText='There are no past events' />
   </div>
 </template>

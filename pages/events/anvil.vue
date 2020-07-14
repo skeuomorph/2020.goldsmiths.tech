@@ -3,9 +3,36 @@
     <EventHero :event='hero' />
     <!-- Content inside of the EventIntroText tags will display on the left-hand side of the intro section, below the hero unit -->
     <EventIntroText :sidebar='introTextSidebarItems'>
-      <h2>Build awesome anvils WuW, with all the support you need.</h2>
-      <p>You ever seen that looney tunes</p>
-      <p>With the coyoti and the bird?</p>
+      <h1>Anvil Hack 2020 information:</h1>
+      <br>
+      <p>Introduction video: this year's theme!</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9VpK64SGsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <h2>Registration:</h2>
+        <p> To register, you will need to make a  <a href="https://discord.com">Discord account</a>. This is so the Hacksmiths committee can create the relative spaces on the server the event is being held on, and assign people into teams within Discord (unless entering in a pre-made team).
+        <br>
+        All information collected here will be deleted after the event (unless you choose to leave an email address with us for future contact, at the end of the form).
+        <br>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScNKkZXCNOlqujIRTbvJIbdzwGc9W9HSn1pvYPamNFmQnOrWw/viewform">Register here!</a>
+        </p>
+      <br>
+      
+      <h2>Schedule:</h2>
+        <p>
+        One week prior to the event, you will receive a friend request on Discord from the Hacksmiths account. You will then be added to the server, but unable to access channels until the event goes live.
+      </p>
+      <ul>
+        <li>31st July: Event and server go live, 'general channels' available for public, general discussion. 'Team channels' available for private, grouped discussions. </li>
+        <li>1st Aug: A second form will be sent to all participants, asking if you want to showcase your work in the server on the final day, and if you would be happy for us to permanently showcase that work online.</li>
+        <li>2nd Aug: Server showcase of work, commencing at 3PM. Each team/ participant will have 5 minutes to showcase their work in the main 'general channel'. Time-slots will be sent to each group/ participant at the start of the day.</li>
+      </ul>
+
+      Extra information regarding the structure of the Discord server will be released a week prior to the event (via video). 
+      <br>
+      Online impressions are just as important as real life ones, so please make sure you have read our <a href="https://github.com/hacksmiths/code-of-conduct">Code of Conduct</a>.
+      <br>
+      Mentors will be on hand to encourage discussion in the public channels, and help teams/ individuals with their projects in the private channels.
+      Mentors and moderators will be available to contact throughout the event for general questions, and have access to all parts of the server. 
       <!-- <p>Find out more <a href='#'>here</a>.</p> -->
     </EventIntroText>
 
@@ -27,36 +54,32 @@ export default {
       // This section is for the hero unit content
       // Assets go in /static
       hero: {
-        background: '/events/doc/hero.jpg',
-        logo: '/events/doc/logo.svg',
-        name: 'Anvil Hack V',
-        desc: 'Anvil\'s drop. They also can enhance things if you have shiny books.',
-        buttons: [
-          { label: 'Highlights from 2019', path: '/no-website-yet' },
-          { label: 'Get free tickets, if you lost the game', path: '/free-tix' }
-        ]
+        background: '/events/anvil/hero.jpg',
+        logo: '/events/logoPink.svg',
+        name: 'Anvil Hack 2020',
+        desc: 'Hacksmiths\' flagship creative tech hackathon. Join us for a weekend of online creativity! ',
       },
 
       // This section is for the info blocks on the right-hand side of the intro section, below the hero unit
       introTextSidebarItems: [
         {
           title: 'When',
-          content: '19th April 2020'
+          content: '31st Jul - 2nd Aug 2020'
         },
         {
           title: 'Where',
           // content: 'St James Hatcham Building<br>Goldsmiths, University of London<br>SE14 6AD'
-          content: 'I don\'t know tbh'
+          content: 'Discord (online)'
         },
         {
-          title: 'Twitter',
-          content: '#AnvilHack'
+          title: 'Twitter/ Instagram tag',
+          content: '#AnvilHack2020'
         }
       ],
 
       // These are the logos to show as supporters. These must be images in the /static/supporters directory, and must be in .png format. 
       // Leave array empty if you want to hide this section
-      supporters: ['goldsmiths', 'doc', 'goldsu', 'github'],
+      supporters: ['goldsmiths', 'doc', 'goldsu'],
       // If false, the line asking for sponsorship will not show
       askForSponsorship: true,
 
@@ -79,8 +102,8 @@ export default {
         //   a: `We want to make this event accessible for everyone, so there is no charge to enter. To make this possible, we need sponsorship.`
         // },
         {
-          q: `I don't think this is for me.`,
-          a: `Anvil's are powerful though.`
+          q: `Can I get involved if I'm not based in tech?`,
+          a: `Definitely, this is the perfect oppurtunity to explore concepts safely, and your showcase can be a 5 minute text monologue of thoughts if you want it to be!`
         },
         {
           q: `Do I need a team?`,

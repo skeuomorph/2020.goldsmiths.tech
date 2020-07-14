@@ -57,6 +57,13 @@ export const state = () => ({
       date: '2020-02-07',
       path: '/events/night-01',
       type: 'night'
+    },
+    {
+      name: 'Anvil Hack 2020',
+      desc: "Hacksmiths' flagship creative tech hackathon.",
+      date: '2020-07-31',
+      path: '/events/anvil',
+      type: 'hack'
     }
   ]
 })
