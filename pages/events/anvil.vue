@@ -13,7 +13,7 @@
         <br>
         All information collected here will be deleted after the event (unless you choose to leave an email address with us for future contact, at the end of the form).
         <br>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScNKkZXCNOlqujIRTbvJIbdzwGc9W9HSn1pvYPamNFmQnOrWw/viewform">Register here!</a>
+        <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLScNKkZXCNOlqujIRTbvJIbdzwGc9W9HSn1pvYPamNFmQnOrWw/viewform">Register here!</a></h3>
         </p>
       <br>
       
