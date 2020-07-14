@@ -4,14 +4,18 @@
     <!-- Content inside of the EventIntroText tags will display on the left-hand side of the intro section, below the hero unit -->
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h1>Anvil Hack 2020 information:</h1>
+      The main purpose of Anvil Hack is to explore concepts creatively, through tech. This year's theme is 'positive disintegration'; the breaking up of old information to make room for new information.
       <br>
-      <p>Introduction video: this year's theme!</p>
+      What can cause systems to reorganise themselves, and what are the effects of this happening?
+      <br>
+      <br>
+      <h2>Introduction video: this year's theme!</h2>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/9VpK64SGsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br>
       <h2>Registration:</h2>
-        <p> To register, you will need to make a  <a href="https://discord.com">Discord account</a>. This is so the Hacksmiths committee can create the relative spaces on the server the event is being held on, and assign people into teams within Discord (unless entering in a pre-made team).
+        <p> To register, you will need to make a  <a href="https://discord.com">Discord account</a>. This is so the Hacksmiths committee can create relative spaces on the Discord server the event is being held on, and assign people into teams within the server.
         <br>
-        All information collected here will be deleted after the event (unless you choose to leave an email address with us for future contact, at the end of the form).
+        All information collected here will be deleted after the event, unless you choose to leave an email address with us for future contact, at the end of the form.
         <br>
         <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLScNKkZXCNOlqujIRTbvJIbdzwGc9W9HSn1pvYPamNFmQnOrWw/viewform">Register here!</a></h3>
         </p>
