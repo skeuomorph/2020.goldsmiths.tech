@@ -4,13 +4,15 @@
     <!-- Content inside of the EventIntroText tags will display on the left-hand side of the intro section, below the hero unit -->
     <EventIntroText :sidebar='introTextSidebarItems'>
       <h1>Anvil Hack 2020 information:</h1>
-      The main purpose of Anvil Hack is to explore concepts creatively, through tech. This year's theme is 'positive disintegration'; the breaking up of old information to make room for new information.
+      The main purpose of Anvil Hack is to explore concepts creatively, and come up with an idea or project you would like to talk about. This year's theme is 'positive disintegration'; the breaking up of old information to make room for new information.
       <br>
       What can cause systems to reorganise themselves, and what are the effects of this happening?
       <br>
-      <br>
+
       <h2>Introduction video: this year's theme!</h2>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/9VpK64SGsEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      The video gives examples related to tech, but positive disintegration within audio sampling, visual collages, storytelling, researching and writing are all equally valid projects too! There are no bounds to your interpretation of the theme, and non-tech perspectives are valued in tech projects.
       <br>
       <h2>Registration:</h2>
         <p> To register, you will need to make a  <a href="https://discord.com">Discord account</a>. This is so the Hacksmiths committee can create relative spaces on the Discord server the event is being held on, and assign people into teams within the server.
