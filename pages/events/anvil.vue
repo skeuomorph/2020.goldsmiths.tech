@@ -14,6 +14,7 @@
       <br>
       The video gives examples related to tech, but positive disintegration within audio sampling, visual collages, storytelling, researching and writing are all equally valid projects too! There are no bounds to your interpretation of the theme, and non-tech perspectives are valued in tech projects.
       <br>
+      <br>
       <h2>Registration:</h2>
         <p> To register, you will need to make a  <a href="https://discord.com">Discord account</a>. This is so the Hacksmiths committee can create relative spaces on the Discord server the event is being held on, and assign people into teams within the server.
         <br>
