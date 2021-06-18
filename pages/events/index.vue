@@ -24,9 +24,9 @@
       <p>
       <h2>Cancelled due to Covid19</h2>
       <br>
-        <a href="https://2020.goldsmiths.tech/events/discussion-about-assange"><h3>An open discussion about Julian Assange</h3></a> 
+        <a href="/events/discussion-about-assange"><h3>An open discussion about Julian Assange</h3></a> 
       <br>
-        <a href="http://localhost:3000/events/no-digital-traces/"><h3>No Digital Traces (research group)</h3></a> 
+        <a href="/events/no-digital-traces/"><h3>No Digital Traces (research group)</h3></a> 
       <br>
       <br>
       <br>
